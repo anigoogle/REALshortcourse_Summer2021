@@ -1,0 +1,601 @@
+id,year,likert1_pre,likert2_pre,likert3_pre,likert4_pre,likert1_post,likert2_post,likert3_post,likert4_post,mc1_pre,mc2_pre,mc1_post,mc2_post,course,gender,gpa_prior,admit_level,final_exam,PEER
+1,2017,Strongly agree,Neutral,Agree,NA,Agree,Disagree,Neutral,Disagree,NA,C,D,A,course_2,F,2.94,Freshman,70,no
+2,2017,Agree,Agree,Neutral,NA,Strongly agree,Neutral,Neutral,Neutral,C,A,C,A,course_2,F,3.19,Freshman,71,yes
+3,2017,Neutral,Agree,Agree,NA,Strongly agree,Strongly disagree,Agree,Agree,D,A,C,A,course_2,F,3.45,Freshman,53,no
+4,2016,Strongly agree,Strongly agree,Strongly disagree,NA,Agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,M,3.08,Freshman,64,yes
+5,2016,Neutral,Neutral,Strongly agree,NA,Strongly agree,Disagree,Strongly agree,Agree,C,B,NA,C,course_1,F,3.05,Transfer,66,yes
+6,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Agree,Agree,C,B,B,A,course_2,F,3.05,Transfer,60,no
+7,2016,Strongly agree,Agree,Disagree,NA,Agree,Disagree,Agree,Neutral,C,A,C,A,course_2,F,3.29,Freshman,62,no
+8,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Agree,Disagree,C,B,C,A,course_1,F,3.44,Freshman,77,yes
+9,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,A,B,NA,A,course_2,F,3.55,Freshman,67,yes
+10,2019,Agree,Agree,Neutral,Agree,Agree,Agree,Agree,Agree,C,D,C,A,course_2,F,3.27,NA,61,no
+11,2019,Neutral,Agree,Strongly agree,Agree,Strongly agree,Agree,Agree,Strongly agree,C,B,C,A,course_2,F,3.41,Freshman,62,yes
+12,2019,Agree,Agree,Strongly agree,Neutral,Neutral,Agree,Agree,Agree,C,B,C,D,course_2,F,3.29,No Record,69,no
+13,2017,Agree,Disagree,Neutral,NA,Agree,Disagree,Disagree,Neutral,NA,A,C,A,course_2,F,2.77,Freshman,72,no
+14,2016,Agree,Agree,Neutral,NA,Agree,Agree,Agree,Neutral,C,A,C,A,course_2,M,3.78,Freshman,61,PNS
+15,2016,Agree,Agree,Agree,NA,Agree,Neutral,Neutral,Disagree,C,B,C,D,course_2,F,2.79,Freshman,55,no
+16,2018,Strongly agree,Agree,Disagree,Agree,Strongly agree,Disagree,Neutral,Agree,B,A,C,A,course_2,F,3.42,Freshman,78,PNS
+17,2016,Strongly agree,Agree,Neutral,NA,Strongly agree,Neutral,Neutral,Neutral,C,A,A,A,course_1,F,3.87,Freshman,75,no
+18,2019,Agree,Strongly agree,Neutral,Neutral,Agree,Neutral,Disagree,Disagree,C,B,C,B,course_2,F,3.44,Freshman,66,no
+19,2018,Agree,Neutral,Agree,Disagree,Neutral,Disagree,Agree,Neutral,D,A,C,D,course_2,F,3.38,Transfer,71,no
+20,2017,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,F,3.52,Freshman,66,no
+21,2016,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Neutral,Strongly disagree,Strongly agree,A,A,C,A,course_2,F,3.55,Transfer,64,no
+22,2018,Agree,Agree,Strongly agree,Neutral,Strongly agree,Neutral,Neutral,Strongly disagree,C,D,C,D,course_1,F,3.65,Transfer,81,yes
+23,2019,Agree,Agree,Neutral,Agree,Strongly agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,3.57,Freshman,56,no
+24,2016,Strongly agree,Disagree,Strongly agree,NA,Disagree,Disagree,Disagree,Disagree,NA,A,C,A,course_2,M,3.32,Freshman,67,no
+25,2017,Agree,Neutral,Strongly agree,NA,Agree,Neutral,Disagree,Disagree,NA,D,C,C,course_2,M,3.58,Freshman,69,no
+26,2016,Agree,Agree,Agree,NA,Strongly agree,Neutral,Neutral,Agree,C,A,C,A,course_1,F,3.72,Transfer,79,yes
+27,2018,Neutral,Agree,Agree,Neutral,Neutral,Neutral,Agree,Neutral,A,A,A,A,course_2,F,2.98,Transfer,82,no
+28,2017,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Neutral,Neutral,Disagree,D,B,D,B,course_2,F,3.55,Transfer,66,no
+29,2019,Strongly agree,Strongly agree,Disagree,Agree,Agree,Neutral,Neutral,Strongly disagree,B,B,D,B,course_1,F,2.52,Freshman,87,no
+30,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Strongly agree,Neutral,C,B,C,A,course_2,F,NA,Freshman,67,no
+31,2016,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,D,A,course_1,M,3.02,Transfer,84,yes
+32,2016,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Agree,Agree,C,A,C,A,course_2,F,3.77,Freshman,51,no
+33,2017,Strongly agree,Agree,Disagree,NA,Strongly agree,Neutral,Disagree,Disagree,C,D,A,D,course_1,F,3.13,Freshman,42,no
+34,2016,Agree,Agree,Agree,NA,Agree,Agree,Agree,Disagree,C,A,NA,B,course_1,F,2.96,Transfer,61,yes
+35,2017,Agree,Neutral,Neutral,NA,Agree,Disagree,Neutral,Disagree,C,A,C,A,course_1,F,3.35,Transfer,74,no
+36,2017,Strongly agree,Agree,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,B,course_1,F,3.06,No Record,67,no
+37,2019,Agree,Agree,Agree,Disagree,Agree,Strongly agree,Agree,Disagree,D,B,C,D,course_2,F,3.63,NA,70,no
+38,2017,Agree,Neutral,Agree,NA,Agree,Neutral,Disagree,Disagree,A,A,C,A,course_2,M,3.8,Transfer,52,yes
+39,2019,Strongly agree,Strongly agree,Agree,Neutral,Agree,Disagree,Disagree,Disagree,A,D,C,A,course_1,F,3.08,Freshman,71,no
+40,2017,Agree,Agree,Strongly agree,NA,Strongly agree,Agree,Agree,Neutral,NA,A,C,A,course_2,F,NA,Transfer,75,yes
+41,2017,Agree,Neutral,Agree,NA,Agree,Agree,Disagree,Agree,NA,D,A,B,course_2,F,3.48,Transfer,83,yes
+42,2017,Agree,Neutral,Agree,NA,Strongly agree,Agree,Neutral,Disagree,NA,B,C,D,course_2,F,3.48,Freshman,63,yes
+43,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Neutral,Neutral,NA,B,NA,A,course_1,M,2.95,Freshman,62,yes
+44,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Agree,C,B,D,B,course_2,F,3.57,Freshman,61,no
+45,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Agree,C,A,C,A,course_1,F,3.97,Freshman,61,yes
+46,2017,Strongly agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Disagree,NA,D,C,D,course_2,M,3.24,Freshman,55,no
+47,2016,Agree,Agree,Agree,NA,Neutral,Agree,Neutral,Neutral,C,B,C,C,course_2,F,3.62,Freshman,48,NA
+48,2016,Agree,Agree,Agree,NA,Agree,Agree,Agree,Strongly agree,NA,B,B,B,course_2,M,3.44,Freshman,61,no
+49,2018,Strongly agree,Agree,Strongly agree,Neutral,Agree,Strongly disagree,Agree,Strongly agree,C,A,C,A,course_2,M,2.78,Freshman,90,no
+50,2016,Neutral,Neutral,Neutral,NA,Neutral,Neutral,Neutral,Agree,C,A,C,B,course_2,F,3.57,Freshman,69,no
+51,2019,Agree,Agree,Agree,Agree,Strongly agree,Neutral,Agree,Disagree,C,D,C,A,course_1,F,3.36,Transfer,75,no
+52,2016,Strongly agree,Neutral,Neutral,NA,Agree,Neutral,Neutral,Disagree,C,A,C,A,course_1,F,2.85,Freshman,75,no
+53,2016,Neutral,Neutral,Agree,NA,Agree,Strongly disagree,Agree,Strongly agree,C,D,C,B,course_1,F,3.53,Freshman,75,no
+54,2016,Agree,Agree,Strongly agree,NA,Strongly agree,Agree,Agree,Strongly agree,C,B,D,B,course_1,F,3.36,Freshman,69,no
+55,2017,Agree,Agree,Disagree,NA,Strongly agree,Strongly disagree,Neutral,Disagree,NA,A,D,A,course_1,F,2.87,Freshman,61,yes
+56,2017,Agree,Agree,Disagree,NA,Agree,Disagree,Disagree,Agree,C,A,C,A,course_1,F,3.2,Freshman,75,no
+57,2018,Neutral,Agree,Strongly agree,Neutral,Agree,Neutral,Neutral,Disagree,-99,-99,C,-99,course_2,F,2.81,Transfer,71,no
+58,2018,Agree,Neutral,Agree,Disagree,Agree,Disagree,Neutral,Neutral,C,B,A,B,course_2,M,3.63,Transfer,71,yes
+59,2017,Agree,Agree,Neutral,NA,Agree,Disagree,Disagree,Strongly agree,C,A,C,A,course_2,M,2.76,Freshman,86,yes
+60,2018,Strongly agree,Agree,Disagree,Agree,Strongly agree,Agree,Strongly disagree,Disagree,A,A,A,A,course_1,F,2.82,Freshman,44,no
+61,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Agree,Disagree,C,A,NA,A,course_1,F,3.48,Freshman,70,yes
+62,2017,Neutral,Disagree,Neutral,NA,Agree,Disagree,Agree,Strongly agree,D,A,C,B,course_1,F,3.59,Freshman,65,no
+63,2016,Agree,Agree,Agree,NA,Agree,Disagree,Agree,Disagree,C,A,C,A,course_1,F,NA,Freshman,89,no
+64,2017,Strongly agree,Strongly agree,Agree,NA,Agree,Neutral,Neutral,Agree,NA,A,C,A,course_2,M,3.01,Freshman,89,no
+65,2019,Agree,Agree,Neutral,Disagree,Agree,Neutral,Neutral,Neutral,C,A,C,C,course_2,F,3.6,Freshman,86,no
+66,2016,Agree,Agree,Agree,NA,Agree,Disagree,Agree,Disagree,NA,B,D,B,course_2,M,2.66,Freshman,71,yes
+67,2017,Neutral,Agree,Strongly agree,NA,Strongly agree,Disagree,Agree,Neutral,C,B,A,B,course_1,M,3.09,Transfer,66,NA
+68,2019,Neutral,Agree,Strongly agree,Neutral,Strongly agree,Disagree,Disagree,Neutral,C,B,C,B,course_2,F,2.5,Freshman,92,no
+69,2019,Agree,Strongly agree,Agree,Neutral,Neutral,Agree,Disagree,Strongly agree,C,A,C,A,course_2,F,3.25,Freshman,63,no
+70,2019,Agree,Strongly agree,Agree,Agree,Strongly agree,Neutral,Neutral,Agree,A,D,C,D,course_1,F,2.92,Transfer,70,yes
+71,2016,Agree,Agree,Neutral,NA,Agree,Agree,Disagree,Neutral,NA,D,NA,A,course_1,F,2.67,Freshman,71,yes
+72,2016,Agree,Agree,Agree,NA,Agree,Disagree,Disagree,Neutral,C,A,A,A,course_1,M,2.87,Transfer,46,PNS
+73,2019,Agree,Agree,Agree,Neutral,Agree,Disagree,Agree,Neutral,A,A,A,A,course_1,F,3.36,Freshman,76,no
+74,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Neutral,NA,B,NA,A,course_2,M,3.07,Freshman,76,no
+75,2018,Agree,Agree,Agree,Agree,Agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,F,3.08,Freshman,59,no
+76,2019,Agree,Agree,Agree,Strongly agree,Agree,Agree,Neutral,Agree,C,B,C,A,course_2,M,NA,Freshman,70,no
+77,2016,Agree,Agree,Neutral,NA,Neutral,Agree,Agree,Agree,C,D,A,C,course_2,F,2.82,Freshman,80,no
+78,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Disagree,Neutral,Agree,A,A,C,A,course_2,F,2.89,Freshman,74,no
+79,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Disagree,NA,A,NA,A,course_2,F,3.81,Freshman,60,no
+80,2017,Agree,Strongly agree,Agree,NA,Strongly agree,Neutral,Disagree,Agree,NA,C,D,B,course_1,F,3.21,Freshman,69,no
+81,2019,Agree,Agree,Neutral,Neutral,Agree,Neutral,Neutral,Neutral,C,A,C,B,course_2,F,2.67,Freshman,71,yes
+82,2018,Agree,Agree,Agree,Agree,Strongly agree,Disagree,Agree,Disagree,A,A,-99,A,course_2,F,3.3,Transfer,78,no
+83,2018,Agree,Strongly agree,Agree,Neutral,Strongly agree,Strongly disagree,Neutral,Strongly disagree,B,A,C,A,course_2,NA,3.63,Transfer,54,no
+84,2016,Agree,Agree,Disagree,NA,Neutral,Strongly disagree,Agree,Agree,NA,D,C,D,course_1,F,3.1,Transfer,77,no
+85,2017,Neutral,Neutral,Agree,NA,Neutral,Agree,Neutral,Neutral,NA,A,C,A,course_2,F,3.7,Transfer,76,no
+86,2017,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Disagree,Strongly disagree,Disagree,C,A,C,A,course_2,NA,3.23,Transfer,67,no
+87,2018,Agree,Agree,Agree,Neutral,Agree,Agree,Neutral,Disagree,C,A,C,A,course_2,F,3.39,Freshman,53,no
+88,2018,Strongly agree,Agree,Disagree,Neutral,Strongly agree,Disagree,Neutral,Strongly agree,A,B,A,B,course_2,F,3.55,Freshman,89,yes
+89,2019,Agree,Agree,Neutral,Neutral,Agree,Neutral,Neutral,Neutral,D,D,A,D,course_2,M,2.65,Transfer,68,yes
+90,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,A,C,B,course_2,F,2.72,Freshman,98,no
+91,2018,Neutral,Agree,Strongly agree,Neutral,Agree,Neutral,Neutral,Disagree,-99,-99,C,-99,course_1,F,3.22,Freshman,74,yes
+92,2017,Agree,Neutral,Agree,NA,Agree,Neutral,Disagree,Strongly disagree,C,B,C,B,course_2,F,3.42,Freshman,51,yes
+93,2018,Strongly agree,Agree,Agree,Neutral,Disagree,Agree,Agree,Agree,C,D,C,B,course_1,M,2.6,Freshman,42,no
+94,2016,Neutral,Neutral,Agree,NA,Agree,Strongly disagree,Agree,Strongly agree,C,D,C,B,course_1,F,3.52,Freshman,62,yes
+95,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Agree,NA,A,C,A,course_1,F,3.48,Freshman,102,NA
+96,2018,Strongly agree,Strongly disagree,Strongly agree,Disagree,Disagree,Disagree,Strongly agree,Agree,B,B,A,B,course_2,M,2.77,Freshman,75,yes
+97,2017,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Neutral,Disagree,Disagree,C,A,C,A,course_1,M,2.68,Transfer,76,no
+98,2018,Strongly agree,Strongly agree,Disagree,Agree,Agree,Disagree,Agree,Agree,-99,A,C,A,course_1,F,2.7,Transfer,82,no
+99,2019,Agree,Agree,Neutral,Agree,Agree,Agree,Agree,Disagree,D,A,C,A,course_2,F,2.7,Freshman,82,yes
+100,2018,Agree,Neutral,Neutral,Neutral,Disagree,Neutral,Disagree,Agree,C,A,C,A,course_1,F,3.58,Transfer,55,no
+101,2017,Strongly agree,Strongly agree,Agree,NA,Agree,Strongly disagree,Agree,Agree,C,A,C,A,course_2,M,1.55,Transfer,80,no
+102,2019,Agree,Agree,Neutral,Neutral,Strongly agree,Agree,Neutral,Agree,C,B,C,A,course_2,M,2.84,Transfer,74,no
+103,2019,Neutral,Agree,Agree,Neutral,Agree,Neutral,Neutral,Neutral,D,A,C,B,course_2,F,3.5,Freshman,71,no
+104,2017,Agree,Neutral,Agree,NA,Agree,Neutral,Agree,Disagree,C,B,C,B,course_2,F,2.64,Freshman,64,no
+105,2017,Neutral,Agree,Neutral,NA,Agree,Neutral,Agree,Neutral,NA,NA,D,B,course_2,F,3.62,Freshman,63,no
+106,2017,Neutral,Agree,Neutral,NA,Agree,Neutral,Disagree,Neutral,A,A,C,A,course_1,F,3.89,Transfer,92,yes
+107,2017,Strongly agree,Neutral,Disagree,NA,Strongly agree,Disagree,Neutral,Neutral,C,A,C,A,course_2,F,3.42,Freshman,67,no
+108,2019,Agree,Agree,Disagree,Neutral,Strongly agree,Disagree,Disagree,Strongly agree,D,A,C,A,course_1,F,2.59,Transfer,71,yes
+109,2017,Agree,Agree,Agree,NA,Strongly agree,Disagree,Strongly disagree,Agree,C,B,C,A,course_2,NA,3.36,Transfer,81,no
+110,2019,Agree,Strongly agree,Disagree,Agree,Strongly agree,Disagree,Agree,Agree,A,A,C,A,course_2,F,2.6,Transfer,73,yes
+111,2019,Agree,Disagree,Agree,Agree,Neutral,Disagree,Neutral,Agree,C,A,C,A,course_2,F,2.85,Freshman,74,yes
+112,2017,Agree,Neutral,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_2,F,3.87,Freshman,68,no
+113,2018,Strongly agree,Strongly agree,Neutral,Agree,Strongly agree,Neutral,Neutral,Disagree,C,A,C,A,course_2,M,2.92,Transfer,71,no
+114,2018,Agree,Strongly agree,Agree,Neutral,Strongly agree,Strongly disagree,Neutral,Strongly disagree,B,A,C,A,course_2,F,3.55,Transfer,65,no
+115,2017,Strongly agree,Agree,Neutral,NA,Neutral,Neutral,Disagree,Neutral,NA,A,D,A,course_1,M,3.63,No Record,67,no
+116,2017,Agree,Agree,Neutral,NA,Strongly agree,Strongly disagree,Agree,Agree,NA,B,C,B,course_2,F,3.61,Freshman,69,no
+117,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Disagree,C,A,C,A,course_2,F,2.64,Transfer,67,yes
+118,2018,Agree,Strongly agree,Disagree,Agree,Strongly agree,Neutral,Neutral,Neutral,C,B,C,B,course_2,F,3.91,Freshman,69,yes
+119,2018,Agree,Agree,Agree,Agree,Neutral,Agree,Neutral,Neutral,D,A,C,A,course_1,F,3.33,Freshman,64,no
+120,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Neutral,NA,B,NA,A,course_1,F,NA,Freshman,71,no
+121,2018,Agree,Strongly agree,Agree,Neutral,Strongly agree,Strongly disagree,Neutral,Strongly disagree,B,A,C,A,course_2,M,3.15,Freshman,70,yes
+122,2017,Agree,Neutral,Agree,NA,Agree,Neutral,Agree,Disagree,C,B,C,B,course_2,M,3.47,Freshman,85,no
+123,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Disagree,Disagree,A,B,A,B,course_1,F,2.97,Freshman,66,no
+124,2017,Agree,Neutral,Agree,NA,Strongly agree,Agree,Neutral,Disagree,NA,B,C,D,course_1,M,3.44,Transfer,66,no
+125,2017,Strongly agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Disagree,NA,D,C,D,course_2,M,3.25,Freshman,74,no
+126,2019,Agree,Neutral,Strongly agree,Neutral,Agree,Agree,Agree,Neutral,A,B,D,B,course_1,F,3.24,Freshman,46,yes
+127,2018,Strongly agree,Agree,Disagree,Agree,Strongly agree,Agree,Strongly disagree,Disagree,A,A,A,A,course_1,M,3.07,Transfer,78,NA
+128,2017,Agree,Agree,Strongly agree,NA,Strongly agree,Strongly disagree,Disagree,Disagree,C,A,C,A,course_1,F,3.59,Freshman,72,yes
+129,2018,Agree,Agree,Neutral,Neutral,Agree,Strongly agree,Agree,Neutral,D,D,C,C,course_2,M,3.16,Freshman,92,no
+130,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,A,C,A,course_2,F,2.74,Transfer,74,no
+131,2016,Neutral,Strongly agree,Strongly agree,NA,Agree,Disagree,Strongly disagree,Disagree,C,A,C,A,course_2,F,3.28,Freshman,40,yes
+132,2017,Agree,Agree,Agree,NA,Agree,Agree,Disagree,Neutral,C,B,C,A,course_2,M,3.65,Transfer,78,yes
+133,2016,Strongly agree,Agree,Agree,NA,Agree,Agree,Agree,Neutral,C,A,C,A,course_2,F,3.19,Transfer,61,PNS
+134,2017,Agree,Neutral,Neutral,NA,Agree,Neutral,Neutral,Neutral,NA,A,C,A,course_1,F,3.08,Freshman,65,no
+135,2017,Strongly agree,Neutral,Agree,NA,Agree,Disagree,Neutral,Disagree,NA,C,D,A,course_1,F,2.88,Freshman,74,yes
+136,2016,Agree,Agree,Strongly disagree,NA,Agree,Strongly disagree,Neutral,Neutral,C,A,C,A,course_1,F,3.26,Freshman,67,no
+137,2016,Agree,Agree,Agree,NA,Agree,Agree,Neutral,Agree,NA,A,D,A,course_1,F,3.58,Transfer,78,no
+138,2017,Agree,Disagree,Strongly agree,NA,Agree,Agree,Disagree,Agree,NA,B,C,B,course_2,F,2.85,Freshman,60,NA
+139,2018,Strongly agree,Strongly agree,Neutral,Agree,Agree,Disagree,Agree,Disagree,C,B,B,A,course_2,F,3.63,Freshman,75,no
+140,2017,Agree,Disagree,Strongly agree,NA,Agree,Disagree,Agree,Agree,C,B,C,B,course_1,F,3.17,Freshman,60,no
+141,2017,Strongly agree,Strongly agree,Strongly disagree,NA,Strongly agree,Disagree,Strongly disagree,Agree,NA,A,C,A,course_1,M,3.26,Freshman,63,no
+142,2018,Agree,Neutral,Agree,Strongly disagree,Agree,Disagree,Agree,Disagree,C,C,C,A,course_2,F,3.88,Transfer,46,no
+143,2017,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Disagree,Strongly disagree,Disagree,C,A,C,A,course_2,F,3.55,Transfer,85,no
+144,2019,Agree,Agree,Neutral,Neutral,Strongly agree,Neutral,Agree,Neutral,A,B,A,B,course_1,F,3.17,Freshman,78,no
+145,2017,Agree,Strongly agree,Disagree,NA,Strongly agree,Strongly disagree,Neutral,Neutral,NA,A,C,A,course_2,F,3.58,Transfer,65,yes
+146,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Agree,Strongly agree,Agree,C,B,C,B,course_2,F,3.36,Freshman,63,yes
+147,2019,Strongly agree,Agree,Neutral,Agree,Agree,Strongly agree,Disagree,Agree,C,A,NA,A,course_2,M,3.74,Transfer,61,yes
+148,2017,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Agree,Neutral,Agree,C,A,C,A,course_1,M,3.26,Freshman,59,no
+149,2017,Neutral,Neutral,Agree,NA,Strongly agree,Agree,Neutral,Neutral,D,B,C,D,course_2,M,3.61,Transfer,73,no
+150,2016,Neutral,Disagree,Agree,NA,Strongly agree,Disagree,Agree,Agree,C,A,C,D,course_2,M,2.52,Freshman,67,no
+151,2017,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Strongly disagree,Disagree,Disagree,NA,A,C,A,course_2,M,3.35,Freshman,53,no
+152,2019,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,A,B,A,C,course_1,NA,3.38,Freshman,65,no
+153,2018,Agree,Agree,Agree,Agree,Agree,Disagree,Agree,Agree,C,D,C,A,course_2,F,3.16,Freshman,78,yes
+154,2018,Agree,Neutral,Strongly agree,Agree,Strongly agree,Neutral,Neutral,Disagree,A,B,D,B,course_2,F,3.57,Freshman,71,no
+155,2017,Agree,Agree,Agree,NA,Agree,Disagree,Neutral,Neutral,A,B,D,B,course_1,M,NA,Freshman,81,yes
+156,2017,Neutral,Agree,Agree,NA,Agree,Neutral,Neutral,Disagree,A,A,C,A,course_2,F,NA,Transfer,79,no
+157,2017,Strongly agree,Agree,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,B,course_1,F,3.59,Freshman,49,yes
+158,2017,Agree,Agree,Agree,NA,Agree,Disagree,Agree,Neutral,A,A,D,B,course_1,F,2.8,Freshman,79,no
+159,2016,Agree,Agree,Neutral,NA,Agree,Agree,Agree,Neutral,C,B,C,B,course_1,F,2.18,Freshman,61,no
+160,2017,Strongly agree,Agree,Agree,NA,Agree,Strongly disagree,Disagree,Disagree,NA,A,C,A,course_1,M,3.13,Transfer,58,PNS
+161,2016,Neutral,Neutral,Agree,NA,Disagree,Neutral,Agree,Agree,NA,NA,NA,NA,course_2,F,2.69,Transfer,47,no
+162,2019,Disagree,Agree,Disagree,Agree,Agree,Disagree,Neutral,Neutral,C,A,C,B,course_2,F,2.6,Freshman,74,no
+163,2016,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,Strongly disagree,Neutral,C,A,C,A,course_2,F,3.53,Transfer,81,no
+164,2019,Agree,Agree,Neutral,Agree,Agree,Disagree,Neutral,Neutral,A,A,C,A,course_2,M,2.6,Freshman,76,no
+165,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,B,C,B,course_2,M,3.68,Freshman,66,no
+166,2019,Agree,Agree,Neutral,Disagree,Agree,Neutral,Neutral,Neutral,C,A,C,C,course_1,F,3.48,Transfer,55,no
+167,2019,Agree,Agree,Neutral,Agree,Agree,Neutral,Agree,Agree,C,D,C,D,course_2,F,2.98,Transfer,64,no
+168,2019,Neutral,Agree,Disagree,Agree,Agree,Neutral,Neutral,Disagree,A,B,C,B,course_2,F,3.04,Freshman,62,no
+169,2017,Strongly agree,Neutral,Agree,NA,Agree,Disagree,Neutral,Disagree,NA,C,D,A,course_2,M,2.96,Transfer,79,no
+170,2018,Neutral,Agree,Strongly agree,Agree,Agree,Neutral,Disagree,Neutral,C,B,C,A,course_2,F,2.98,Freshman,42,no
+171,2016,Agree,Neutral,Agree,NA,Agree,Neutral,Neutral,Neutral,C,A,NA,A,course_2,F,2.86,Transfer,61,no
+172,2019,Strongly agree,Agree,Agree,Neutral,Strongly agree,Strongly disagree,Disagree,Disagree,C,B,C,B,course_2,F,3.48,Freshman,74,no
+173,2016,Agree,Agree,Disagree,NA,Neutral,Strongly disagree,Neutral,Agree,C,A,C,A,course_2,M,3.23,Freshman,79,no
+174,2017,Strongly agree,Agree,Agree,NA,Strongly agree,Strongly disagree,Strongly disagree,Disagree,C,A,C,A,course_2,F,2.78,Freshman,57,no
+175,2018,Strongly agree,Agree,Agree,Agree,Strongly agree,Agree,Neutral,Neutral,C,A,C,B,course_1,F,3.63,Freshman,61,no
+176,2018,Agree,Neutral,Disagree,Strongly agree,Agree,Disagree,Strongly agree,Agree,D,B,D,B,course_2,F,3.57,Freshman,73,no
+177,2019,Agree,Agree,Neutral,Neutral,Strongly agree,Neutral,Agree,Neutral,A,B,A,B,course_1,F,3.55,Freshman,80,no
+178,2016,Neutral,Disagree,Neutral,NA,Agree,Strongly disagree,Disagree,Agree,NA,A,C,A,course_2,F,2.24,Transfer,75,no
+179,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,A,C,B,course_2,M,2.79,Freshman,67,yes
+180,2019,Agree,Neutral,Strongly agree,Neutral,Agree,Agree,Agree,Neutral,A,B,D,B,course_1,F,2.76,Freshman,84,NA
+181,2016,Strongly agree,Neutral,Neutral,NA,Agree,Neutral,Agree,Neutral,C,A,NA,A,course_2,F,3.93,Freshman,89,no
+182,2016,Agree,Agree,Strongly disagree,NA,Agree,Disagree,Strongly disagree,Disagree,C,D,NA,B,course_2,F,3.3,Freshman,64,no
+183,2019,Agree,Neutral,Agree,Agree,Agree,Neutral,Agree,Neutral,A,B,C,B,course_1,M,3.95,Freshman,71,no
+184,2016,Strongly agree,Strongly agree,Strongly agree,NA,Agree,Disagree,Disagree,Disagree,D,B,C,A,course_1,F,3.02,Freshman,72,yes
+185,2017,Agree,Agree,Neutral,NA,Agree,Agree,Agree,Agree,C,A,C,A,course_2,F,3.59,NA,64,no
+186,2019,Agree,Agree,Agree,Disagree,Agree,Strongly disagree,Neutral,Disagree,C,D,C,D,course_2,M,3.36,Freshman,76,yes
+187,2018,Agree,Agree,Agree,Neutral,Agree,Disagree,Disagree,Neutral,C,D,A,B,course_2,F,3.77,Freshman,73,no
+188,2016,Agree,Agree,Neutral,NA,Agree,Strongly disagree,Disagree,Neutral,C,A,C,A,course_2,F,3.64,Freshman,51,no
+189,2019,Agree,Agree,Strongly agree,Neutral,Neutral,Agree,Agree,Agree,C,B,C,D,course_2,F,3.09,Freshman,87,no
+190,2016,Strongly agree,Neutral,Disagree,NA,Strongly agree,Disagree,Strongly disagree,Strongly agree,C,A,C,A,course_1,M,2.64,Freshman,47,PNS
+191,2017,Agree,Strongly agree,Neutral,NA,Strongly agree,Disagree,Strongly disagree,Neutral,D,A,C,A,course_1,M,2.69,Freshman,74,yes
+192,2016,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Neutral,Neutral,Neutral,C,A,C,A,course_2,F,NA,Freshman,83,yes
+193,2019,Agree,Agree,Neutral,Agree,Agree,Neutral,Disagree,Neutral,C,B,C,D,course_2,F,3.45,Freshman,72,no
+194,2017,Agree,Agree,Disagree,NA,Strongly agree,Strongly disagree,Disagree,Neutral,C,A,C,A,course_2,F,3.25,Freshman,73,yes
+195,2016,Agree,Agree,Neutral,NA,Neutral,Disagree,Agree,Neutral,D,A,C,B,course_1,F,3.14,Freshman,80,no
+196,2017,Agree,Agree,Neutral,NA,Strongly agree,Agree,Neutral,Agree,NA,D,A,D,course_1,F,3.25,Freshman,76,no
+197,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Agree,Agree,A,A,A,A,course_1,F,3.37,Freshman,69,no
+198,2018,Strongly agree,Neutral,Agree,Neutral,Agree,Neutral,Neutral,Neutral,C,B,C,B,course_1,M,3.45,Freshman,77,no
+199,2017,Agree,Agree,Agree,NA,Agree,Neutral,Disagree,Agree,C,D,D,A,course_1,F,3.36,Freshman,70,no
+200,2018,Agree,Strongly agree,Disagree,Agree,Strongly agree,Neutral,Neutral,Neutral,C,B,C,B,course_1,F,2.83,Freshman,83,yes
+201,2017,Agree,Strongly agree,Neutral,NA,Agree,Neutral,Disagree,Neutral,C,C,C,A,course_1,F,3.87,Transfer,73,no
+202,2017,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Strongly disagree,Disagree,C,A,C,A,course_2,F,3.3,Freshman,68,no
+203,2017,Agree,Strongly agree,Neutral,NA,Agree,Neutral,Disagree,Neutral,C,C,C,A,course_1,F,2.91,Freshman,76,no
+204,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Disagree,Disagree,A,B,A,B,course_1,M,2.87,Transfer,78,no
+205,2016,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Strongly disagree,Strongly disagree,Neutral,C,B,A,B,course_1,F,3,Freshman,74,no
+206,2016,Agree,Agree,Disagree,NA,Strongly agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,F,2.84,Freshman,64,yes
+207,2017,Agree,Agree,Neutral,NA,Agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,M,2.78,Freshman,44,NA
+208,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,B,C,B,course_2,M,2.91,NA,64,no
+209,2017,Agree,Agree,Disagree,NA,Agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,3.06,Transfer,73,NA
+210,2017,Strongly agree,Agree,Neutral,NA,Agree,Strongly agree,Agree,Disagree,NA,D,A,D,course_1,M,2.89,Freshman,62,yes
+211,2018,Neutral,Neutral,Agree,Neutral,Disagree,Agree,Neutral,Disagree,A,B,C,D,course_2,F,2.38,Transfer,74,no
+212,2017,Agree,Agree,Agree,NA,Strongly agree,Agree,Agree,Neutral,NA,D,C,D,course_2,M,NA,Freshman,69,yes
+213,2018,Agree,Agree,Strongly agree,Neutral,Agree,Neutral,Neutral,Agree,C,A,C,A,course_2,F,3.41,Transfer,71,no
+214,2016,Agree,Neutral,Strongly agree,NA,Neutral,Agree,Agree,Disagree,C,D,C,D,course_1,F,3.58,Freshman,37,no
+215,2017,Strongly agree,Agree,Strongly agree,NA,Agree,Strongly disagree,Neutral,Disagree,C,B,C,A,course_2,F,3.85,Freshman,54,no
+216,2019,Agree,Neutral,Agree,Agree,Agree,Strongly disagree,Agree,Strongly agree,C,A,A,A,course_1,F,2.71,Freshman,45,no
+217,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,NA,D,D,D,course_2,F,3.24,Freshman,71,yes
+218,2019,Agree,Agree,Neutral,Strongly agree,Strongly agree,Disagree,Neutral,Neutral,C,A,C,B,course_1,M,2.89,Freshman,74,no
+219,2017,Agree,Agree,Agree,NA,Agree,Strongly disagree,Neutral,Neutral,NA,A,C,A,course_1,F,4,Freshman,75,no
+220,2017,Neutral,Neutral,Neutral,NA,Strongly agree,Strongly agree,Neutral,Strongly agree,D,A,C,C,course_1,M,2.59,Freshman,62,yes
+221,2018,Strongly agree,Strongly agree,Disagree,Strongly agree,Strongly agree,Disagree,Disagree,Disagree,C,A,C,A,course_2,F,2.7,Freshman,82,yes
+222,2017,Agree,Agree,Neutral,NA,Strongly agree,Strongly disagree,Agree,Agree,NA,B,C,B,course_2,F,3.24,Freshman,53,no
+223,2017,Agree,Agree,Disagree,NA,Strongly agree,Strongly disagree,Disagree,Neutral,C,A,C,A,course_1,M,3.72,Freshman,78,no
+224,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Neutral,C,B,C,B,course_2,F,2.6,Transfer,84,yes
+225,2019,Agree,Agree,Agree,Strongly agree,Strongly agree,Agree,Agree,Strongly agree,C,D,D,D,course_1,F,3.51,Transfer,76,yes
+226,2019,Strongly agree,Agree,Disagree,Agree,Agree,Strongly disagree,Disagree,Agree,C,A,C,A,course_1,F,2.96,Freshman,80,no
+227,2016,Neutral,Neutral,Agree,NA,Agree,Disagree,Neutral,Neutral,C,D,C,D,course_1,M,2.98,Freshman,49,no
+228,2017,Strongly agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,A,C,A,course_2,F,2.87,Freshman,48,no
+229,2017,Agree,Disagree,Agree,NA,Agree,Neutral,Agree,Agree,C,A,C,A,course_2,F,2.73,Freshman,61,yes
+230,2016,Agree,Agree,Strongly agree,NA,Strongly agree,Agree,Agree,Strongly agree,C,B,D,B,course_2,M,2.99,Transfer,60,yes
+231,2017,Agree,Agree,Agree,NA,Agree,Disagree,Disagree,Neutral,NA,D,C,B,course_2,F,2.52,Transfer,76,yes
+232,2017,Agree,Strongly agree,Neutral,NA,Strongly agree,Neutral,Agree,Disagree,D,A,C,A,course_2,F,3.74,Freshman,66,no
+233,2016,Agree,Strongly agree,Neutral,NA,Strongly agree,Agree,Neutral,Neutral,C,A,C,A,course_1,M,3.35,Transfer,64,no
+234,2019,Agree,Neutral,Agree,Agree,Agree,Neutral,Agree,Neutral,C,B,C,B,course_2,F,3.18,Transfer,86,yes
+235,2016,Agree,Agree,Agree,NA,Agree,Neutral,Neutral,Neutral,NA,D,NA,D,course_2,F,2.79,Freshman,52,yes
+236,2018,Agree,Neutral,Disagree,Strongly agree,Agree,Disagree,Strongly agree,Agree,D,B,D,B,course_1,F,3.91,Freshman,97,yes
+237,2017,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Strongly disagree,Strongly disagree,Disagree,C,B,D,D,course_2,F,2.88,Freshman,66,no
+238,2017,Agree,Strongly agree,Disagree,NA,Agree,Disagree,Disagree,Strongly disagree,NA,A,C,A,course_1,F,3.27,Freshman,75,yes
+239,2017,Agree,Agree,Neutral,NA,Agree,Disagree,Disagree,Agree,C,A,C,A,course_2,M,NA,NA,77,yes
+240,2016,Agree,Agree,Agree,NA,Strongly agree,Disagree,Neutral,Neutral,C,A,C,A,course_1,F,3.65,Freshman,74,yes
+241,2017,Agree,Strongly agree,Disagree,NA,Strongly agree,Disagree,Neutral,Disagree,A,B,C,C,course_1,F,3.58,Freshman,52,no
+242,2018,Strongly agree,Strongly agree,Disagree,Neutral,Agree,Agree,Agree,Disagree,C,B,C,B,course_1,M,2.68,Transfer,73,yes
+243,2018,Agree,Agree,Neutral,Neutral,Strongly agree,Agree,Agree,Neutral,C,B,C,A,course_1,M,3.03,Freshman,77,yes
+244,2017,Agree,Agree,Neutral,NA,Strongly agree,Agree,Agree,Disagree,C,B,C,B,course_1,M,2.75,Freshman,81,yes
+245,2016,Agree,Agree,Agree,NA,Agree,Neutral,Neutral,Neutral,NA,D,NA,D,course_2,F,3.64,Transfer,62,yes
+246,2016,Agree,Neutral,Strongly disagree,NA,Agree,Agree,Strongly disagree,Agree,A,B,C,B,course_1,F,3.77,Freshman,62,no
+247,2016,Agree,Agree,Disagree,NA,Strongly agree,Neutral,Neutral,Neutral,C,A,C,A,course_2,M,3.2,Transfer,86,no
+248,2017,Agree,Agree,Neutral,NA,Neutral,Neutral,Agree,Agree,C,D,C,D,course_2,F,3.06,Freshman,72,yes
+249,2017,Agree,Agree,Disagree,NA,Agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,3.54,Freshman,72,PNS
+250,2017,Agree,Neutral,Agree,NA,Agree,Neutral,Disagree,Strongly disagree,C,B,C,B,course_2,F,2.46,Freshman,81,no
+251,2017,Agree,Agree,Strongly agree,NA,Agree,Neutral,Neutral,Disagree,NA,B,C,A,course_1,F,2.51,Freshman,65,no
+252,2019,Strongly agree,Disagree,Neutral,Disagree,Agree,Disagree,Strongly disagree,Agree,C,A,C,A,course_1,F,2.27,Freshman,66,yes
+253,2018,Agree,Neutral,Agree,Disagree,Neutral,Disagree,Agree,Neutral,D,A,C,D,course_1,F,3.05,Transfer,61,PNS
+254,2016,Agree,Agree,Neutral,NA,Agree,Agree,Agree,Agree,C,B,C,B,course_1,M,2.79,Freshman,64,no
+255,2017,Agree,Neutral,Strongly agree,NA,Agree,Neutral,Disagree,Disagree,NA,D,C,C,course_1,M,3.3,Transfer,51,yes
+256,2016,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Disagree,Neutral,Disagree,C,B,C,A,course_1,M,2.43,Freshman,74,no
+257,2018,Agree,Agree,Neutral,Agree,Agree,Agree,Disagree,Agree,B,B,C,A,course_1,M,3.67,Freshman,76,no
+258,2017,Neutral,Neutral,Agree,NA,Strongly agree,Agree,Neutral,Neutral,D,B,C,D,course_1,M,3.15,Freshman,62,NA
+259,2017,Agree,Agree,Strongly agree,NA,Neutral,Neutral,Agree,Neutral,C,D,D,A,course_2,M,3.66,Transfer,69,no
+260,2016,Neutral,Neutral,Agree,NA,Agree,Strongly disagree,Agree,Strongly agree,C,D,C,B,course_1,M,2.7,NA,74,no
+261,2016,Strongly agree,Neutral,Neutral,NA,Agree,Neutral,Neutral,Disagree,C,A,C,A,course_2,M,3.6,Freshman,77,no
+262,2016,Agree,Agree,Agree,NA,Agree,Neutral,Neutral,Disagree,C,B,NA,D,course_1,F,2.73,Freshman,68,no
+263,2016,Strongly agree,Disagree,Strongly agree,NA,Disagree,Disagree,Disagree,Disagree,NA,A,C,A,course_2,F,3.59,Freshman,60,yes
+264,2017,Strongly agree,Neutral,Disagree,NA,Strongly agree,Disagree,Strongly disagree,Neutral,C,A,C,A,course_1,M,2.92,Freshman,47,no
+265,2016,Neutral,Agree,Agree,NA,Agree,Agree,Agree,Neutral,C,A,C,C,course_1,F,3.29,Transfer,70,no
+266,2019,Strongly agree,Agree,Agree,Neutral,Strongly agree,Agree,Neutral,Agree,B,A,A,A,course_2,M,2.97,Transfer,60,no
+267,2019,Disagree,Agree,Disagree,Agree,Agree,Disagree,Neutral,Neutral,C,A,C,B,course_1,F,3.27,Freshman,79,yes
+268,2017,Agree,Neutral,Agree,NA,Agree,Agree,Strongly disagree,Disagree,C,B,C,A,course_1,F,3.26,Freshman,68,no
+269,2019,Agree,Agree,Neutral,Agree,Agree,Disagree,Neutral,Neutral,A,A,C,A,course_1,F,3.33,Transfer,62,NA
+270,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,D,A,B,course_2,F,2.33,Freshman,56,yes
+271,2016,Agree,Agree,Agree,NA,Agree,Neutral,Neutral,Disagree,C,B,C,D,course_1,M,2.65,Freshman,80,no
+272,2017,Strongly agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Disagree,NA,D,C,D,course_2,M,2.69,Freshman,77,no
+273,2019,Agree,Agree,Neutral,Neutral,Strongly agree,Neutral,Agree,Agree,A,B,A,A,course_1,F,3.94,Transfer,71,no
+274,2019,Agree,Agree,Neutral,Agree,Agree,Agree,Strongly agree,Agree,C,D,C,A,course_1,F,3.49,Freshman,74,NA
+275,2018,Strongly agree,Strongly agree,Disagree,Neutral,Agree,Agree,Agree,Disagree,C,B,C,B,course_2,F,3.25,Transfer,75,yes
+276,2017,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Neutral,Neutral,Disagree,C,B,C,B,course_1,M,3.59,Freshman,59,NA
+277,2019,Agree,Neutral,Strongly agree,Neutral,Strongly agree,Neutral,Disagree,Agree,C,B,C,B,course_2,F,NA,Freshman,77,yes
+278,2019,Strongly agree,Strongly agree,Agree,Neutral,Agree,Disagree,Disagree,Disagree,A,D,C,A,course_2,M,3.75,Freshman,70,PNS
+279,2019,Agree,Agree,Neutral,Neutral,Agree,Disagree,Agree,Neutral,A,A,C,A,course_2,F,2.64,Freshman,81,yes
+280,2018,Strongly agree,Strongly agree,Neutral,Agree,Strongly agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,F,3.59,Freshman,72,no
+281,2017,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Neutral,Disagree,NA,A,C,A,course_2,M,3.42,Freshman,69,no
+282,2017,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Disagree,Neutral,C,D,C,D,course_2,F,3.41,Transfer,87,yes
+283,2018,Strongly agree,Agree,Strongly agree,Neutral,Agree,Strongly disagree,Agree,Strongly agree,C,A,C,A,course_1,M,3.03,Freshman,63,yes
+284,2017,Strongly agree,Disagree,Disagree,NA,Agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,3.77,Freshman,66,yes
+285,2016,Strongly agree,Strongly disagree,Neutral,NA,Disagree,Strongly disagree,Strongly agree,Disagree,C,B,C,A,course_1,F,NA,Freshman,57,no
+286,2019,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Neutral,Neutral,Disagree,C,A,A,A,course_1,M,3.61,Freshman,68,no
+287,2017,Strongly agree,Agree,Strongly agree,NA,Agree,Strongly disagree,Neutral,Disagree,C,B,C,A,course_2,F,2.86,Transfer,82,no
+288,2017,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Strongly disagree,Strongly disagree,Disagree,C,B,D,D,course_1,F,2.99,Freshman,75,no
+289,2017,Neutral,Strongly agree,Disagree,NA,Strongly agree,Neutral,Disagree,Disagree,D,A,C,A,course_2,M,3.02,Freshman,67,no
+290,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,D,C,B,course_1,F,3.76,Freshman,75,no
+291,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Agree,D,D,C,D,course_1,F,3.43,Freshman,71,no
+292,2019,Strongly agree,Strongly agree,Neutral,Neutral,Strongly agree,Neutral,Neutral,Neutral,C,B,C,A,course_2,F,3.76,Freshman,65,PNS
+293,2018,Agree,Neutral,Agree,Neutral,Agree,Disagree,Agree,Agree,C,A,C,A,course_2,F,3.16,Freshman,65,yes
+294,2016,Neutral,Neutral,Neutral,NA,Agree,Neutral,Agree,Agree,D,D,D,B,course_1,F,2.99,Transfer,56,no
+295,2017,Agree,Strongly agree,Neutral,NA,Agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,F,3.49,Transfer,65,no
+296,2019,Agree,Agree,Neutral,Agree,Agree,Agree,Agree,Agree,C,D,C,A,course_1,M,3.29,Transfer,83,no
+297,2019,Strongly agree,Agree,Neutral,Agree,Agree,Neutral,Neutral,Neutral,C,A,C,A,course_2,F,3.2,Freshman,55,no
+298,2017,Strongly agree,Agree,Agree,NA,Agree,Disagree,Agree,Agree,C,D,C,A,course_2,M,3.21,Freshman,73,no
+299,2017,Agree,Neutral,Agree,NA,Agree,Neutral,Agree,Disagree,C,B,C,B,course_1,F,2.8,Transfer,66,no
+300,2016,Strongly agree,Strongly agree,Neutral,NA,Agree,Strongly disagree,Disagree,Agree,C,A,C,A,course_1,F,3.13,Freshman,79,NA
+301,2017,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Neutral,Disagree,NA,A,C,A,course_2,F,3.08,Freshman,77,yes
+302,2018,Strongly agree,Strongly agree,Disagree,Agree,Agree,Disagree,Agree,Agree,-99,A,C,A,course_2,M,3.27,Transfer,59,no
+303,2016,Agree,Neutral,Neutral,NA,Agree,Disagree,Disagree,Neutral,C,A,C,A,course_2,F,3.38,Freshman,64,no
+304,2017,Agree,Disagree,Agree,NA,Agree,Neutral,Agree,Agree,C,A,C,A,course_1,F,3.23,Transfer,59,no
+305,2017,Neutral,Neutral,Agree,NA,Agree,Neutral,Neutral,Strongly agree,C,B,C,B,course_1,M,2.66,Freshman,53,no
+306,2019,Agree,Neutral,Agree,Neutral,Agree,Disagree,Agree,Neutral,C,B,C,C,course_2,F,2.97,Freshman,86,no
+307,2019,Agree,Neutral,Neutral,Neutral,Agree,Disagree,Disagree,Agree,C,B,A,A,course_2,M,3.64,Freshman,73,yes
+308,2019,Neutral,Agree,Strongly agree,Neutral,Strongly agree,Disagree,Disagree,Neutral,C,B,C,B,course_1,F,3.17,Freshman,81,no
+309,2019,Agree,Agree,Neutral,Neutral,Agree,Agree,Neutral,Agree,A,D,C,B,course_2,F,3.43,Freshman,67,yes
+310,2017,Agree,Agree,Neutral,NA,Neutral,Neutral,Neutral,Neutral,C,A,A,A,course_2,M,3.41,Freshman,74,yes
+311,2016,Agree,Agree,Agree,NA,Agree,Neutral,Agree,Disagree,NA,A,B,B,course_1,F,2.85,Freshman,57,yes
+312,2019,Agree,Agree,Agree,Neutral,Agree,Agree,Neutral,Neutral,C,A,C,A,course_2,F,3.03,Freshman,83,yes
+313,2017,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Disagree,Neutral,C,D,C,D,course_2,F,2.71,Freshman,54,no
+314,2018,Agree,Agree,Agree,Agree,Neutral,Agree,Neutral,Neutral,D,A,C,A,course_2,F,2.79,Freshman,73,no
+315,2017,Agree,Strongly disagree,Neutral,NA,Strongly agree,Disagree,Disagree,Neutral,C,B,C,B,course_1,F,2.87,Transfer,77,yes
+316,2019,Agree,Strongly agree,Neutral,Neutral,Agree,Neutral,Disagree,Disagree,C,B,C,B,course_1,F,3.55,Freshman,52,no
+317,2016,Strongly agree,Strongly agree,Agree,NA,Agree,Disagree,Strongly agree,Neutral,C,A,C,A,course_2,F,2.32,Freshman,69,yes
+318,2016,Strongly agree,Agree,Disagree,NA,Strongly agree,Strongly disagree,Neutral,Neutral,D,A,A,A,course_1,M,2.58,Freshman,71,no
+319,2018,Strongly agree,Agree,Agree,Neutral,Agree,Disagree,Strongly disagree,Agree,C,B,C,C,course_2,NA,2.95,Transfer,48,yes
+320,2018,Agree,Agree,Strongly agree,Neutral,Strongly agree,Neutral,Neutral,Strongly disagree,C,D,C,D,course_1,F,3.3,Freshman,67,no
+321,2017,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Disagree,Disagree,Disagree,C,A,C,A,course_1,F,3.65,Freshman,56,no
+322,2019,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Neutral,C,B,C,A,course_1,F,3.35,Transfer,71,no
+323,2017,Neutral,Agree,Disagree,NA,Strongly agree,Disagree,Disagree,Agree,C,A,C,B,course_2,NA,3.71,Freshman,64,no
+324,2017,Strongly agree,Strongly agree,Agree,NA,Agree,Neutral,Strongly agree,Agree,C,A,C,A,course_2,M,3.35,Freshman,61,no
+325,2019,Agree,Agree,Agree,Agree,Agree,Disagree,Disagree,Neutral,C,D,C,B,course_2,F,2.57,Transfer,68,no
+326,2017,Agree,Neutral,Agree,NA,Agree,Disagree,Neutral,Neutral,NA,A,A,C,course_2,M,3.07,Freshman,66,no
+327,2018,Agree,Neutral,Agree,Disagree,Neutral,Disagree,Agree,Neutral,D,A,C,D,course_1,M,3.64,Freshman,84,no
+328,2019,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Disagree,Strongly disagree,Strongly agree,C,A,C,A,course_2,M,3.48,Transfer,77,yes
+329,2019,Agree,Agree,Neutral,Agree,Agree,Neutral,Neutral,Neutral,A,B,A,B,course_1,F,NA,Freshman,46,no
+330,2016,Agree,Agree,Neutral,NA,Agree,Agree,Disagree,Neutral,NA,D,NA,A,course_2,M,2.85,Freshman,73,PNS
+331,2017,Strongly agree,Disagree,Disagree,NA,Agree,Disagree,Disagree,Agree,C,A,C,A,course_1,M,3.64,Transfer,82,yes
+332,2016,Agree,Agree,Strongly agree,NA,Agree,Neutral,Agree,Agree,C,D,C,D,course_1,F,2.7,Freshman,64,no
+333,2017,Agree,Agree,Agree,NA,Neutral,Disagree,Agree,Disagree,C,A,C,B,course_1,M,2.44,Freshman,81,no
+334,2019,Agree,Neutral,Strongly agree,Neutral,Strongly agree,Neutral,Disagree,Agree,C,B,C,B,course_1,M,2.8,Transfer,66,yes
+335,2019,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,A,B,A,C,course_2,M,2.78,Freshman,67,no
+336,2017,Agree,Agree,Neutral,NA,Strongly agree,Agree,Disagree,Disagree,C,A,C,A,course_2,F,2.85,Freshman,70,no
+337,2017,Agree,Agree,Neutral,NA,Strongly agree,Neutral,Disagree,Agree,C,A,C,A,course_2,F,3.59,Freshman,49,yes
+338,2016,Neutral,Agree,Agree,NA,Agree,Strongly disagree,Disagree,Neutral,NA,A,C,A,course_1,M,3.25,Freshman,64,no
+339,2016,Neutral,Neutral,Agree,NA,Agree,Strongly disagree,Agree,Strongly agree,C,D,C,B,course_1,M,3.33,Freshman,57,yes
+340,2019,Strongly agree,Agree,Disagree,Agree,Agree,Agree,Agree,Neutral,A,A,C,A,course_1,M,2.54,Freshman,45,yes
+341,2016,Agree,Agree,Strongly agree,NA,Agree,Strongly disagree,Disagree,Neutral,C,A,C,A,course_1,F,3.24,Freshman,67,no
+342,2018,Agree,Agree,Agree,Strongly agree,Strongly agree,Disagree,Disagree,Neutral,C,A,C,A,course_2,M,3.33,Transfer,82,no
+343,2016,Agree,Agree,Agree,NA,Agree,Agree,Agree,Strongly agree,NA,B,B,B,course_2,NA,2.61,Transfer,79,yes
+344,2019,Agree,Agree,Neutral,Agree,Agree,Disagree,Neutral,Neutral,A,A,C,A,course_2,M,3.08,Transfer,77,no
+345,2017,Agree,Agree,Disagree,NA,Strongly agree,Neutral,Disagree,Disagree,C,A,C,A,course_1,F,3.06,Freshman,80,no
+346,2018,Agree,Agree,Agree,Agree,Neutral,Agree,Neutral,Neutral,D,A,C,A,course_1,M,3.93,Freshman,87,yes
+347,2018,Agree,Neutral,Agree,Strongly disagree,Agree,Disagree,Agree,Disagree,C,C,C,A,course_1,F,3.97,Freshman,61,no
+348,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_2,F,3.81,Freshman,75,no
+349,2017,Agree,Agree,Agree,NA,Agree,Neutral,Disagree,Agree,C,D,D,A,course_1,F,3.17,Transfer,58,no
+350,2017,Disagree,Disagree,Disagree,NA,Neutral,Neutral,Agree,Disagree,C,A,A,A,course_1,F,3.04,Freshman,69,no
+351,2019,Agree,Neutral,Agree,Neutral,Agree,Agree,Agree,Agree,A,D,A,D,course_2,F,2.85,Freshman,74,no
+352,2017,Neutral,Agree,Agree,NA,Agree,Strongly disagree,Disagree,Agree,A,B,C,B,course_1,M,3.48,Freshman,57,no
+353,2016,Strongly agree,Agree,Strongly disagree,NA,Agree,Agree,Agree,Strongly disagree,NA,D,NA,D,course_2,F,3.59,Transfer,56,no
+354,2016,Strongly agree,Neutral,Disagree,NA,Strongly agree,Disagree,Strongly disagree,Strongly agree,C,A,C,A,course_2,F,2.46,Freshman,51,yes
+355,2016,Neutral,Neutral,Neutral,NA,Agree,Neutral,Agree,Agree,D,D,D,B,course_2,M,2.75,Freshman,98,no
+356,2017,Neutral,Neutral,Neutral,NA,Strongly agree,Strongly agree,Neutral,Strongly agree,D,A,C,C,course_2,F,2.32,Transfer,60,NA
+357,2019,Agree,Agree,Disagree,Neutral,Strongly agree,Disagree,Neutral,Agree,A,D,C,D,course_1,F,3.17,Freshman,61,PNS
+358,2017,Agree,Neutral,Agree,NA,Strongly agree,Neutral,Agree,Neutral,C,A,C,A,course_1,M,2.86,Freshman,65,yes
+359,2017,Strongly agree,Agree,Disagree,NA,Agree,Neutral,Strongly agree,Agree,NA,A,C,A,course_1,F,3.55,Freshman,65,yes
+360,2019,Agree,Agree,Agree,Neutral,Agree,Disagree,Agree,Neutral,A,A,A,A,course_1,F,3.11,Freshman,72,no
+361,2017,Neutral,Disagree,Neutral,NA,Agree,Disagree,Agree,Strongly agree,D,A,C,B,course_2,F,2.84,Freshman,81,no
+362,2018,Disagree,Strongly disagree,Disagree,Agree,Agree,Strongly disagree,Agree,Disagree,A,A,A,A,course_2,F,3.65,Freshman,72,PNS
+363,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Strongly agree,D,B,D,B,course_1,M,2.17,Freshman,55,PNS
+364,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Disagree,A,A,A,A,course_1,F,2.46,Freshman,59,no
+365,2019,Strongly agree,Agree,Neutral,Agree,Strongly agree,Neutral,Neutral,Disagree,D,B,C,A,course_1,M,3.19,Freshman,54,no
+366,2019,Agree,Agree,Neutral,Strongly agree,Strongly agree,Disagree,Neutral,Neutral,C,A,C,B,course_2,F,3.47,Freshman,77,yes
+367,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Disagree,Neutral,C,A,C,A,course_1,M,3.03,Freshman,69,PNS
+368,2019,Agree,Neutral,Neutral,Agree,Strongly agree,Neutral,Disagree,Agree,D,B,D,A,course_2,NA,2.61,NA,99,PNS
+369,2018,Strongly agree,Strongly agree,Agree,Agree,Strongly agree,Neutral,Agree,Neutral,C,B,-99,B,course_1,F,3.05,Freshman,69,no
+370,2019,Strongly agree,Strongly agree,Neutral,Agree,Strongly agree,Agree,Neutral,Disagree,A,B,C,A,course_1,F,2.7,Freshman,76,yes
+371,2018,Agree,Agree,Neutral,Neutral,Agree,Disagree,Neutral,Neutral,C,A,C,A,course_1,F,2.66,Transfer,65,yes
+372,2017,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Disagree,Neutral,Neutral,C,A,C,A,course_2,F,2.74,Freshman,61,no
+373,2019,Agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Neutral,Strongly agree,Neutral,C,A,C,A,course_2,M,3.22,Freshman,62,no
+374,2018,Strongly agree,Neutral,Agree,Neutral,Agree,Neutral,Neutral,Neutral,C,B,C,B,course_1,F,2.57,Freshman,68,no
+375,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Disagree,Strongly disagree,Neutral,NA,A,NA,A,course_2,F,2.46,Freshman,65,no
+376,2016,Agree,Agree,Disagree,NA,Agree,Disagree,Disagree,Neutral,C,B,C,D,course_2,F,3.51,Freshman,76,no
+377,2017,Agree,Disagree,Strongly disagree,NA,Strongly agree,Disagree,Disagree,Neutral,A,D,A,D,course_2,M,3.51,Freshman,75,no
+378,2019,Agree,Disagree,Agree,Neutral,Agree,Disagree,Strongly agree,Neutral,C,D,C,B,course_2,M,2.49,Transfer,83,yes
+379,2016,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Disagree,Neutral,Disagree,NA,A,C,A,course_1,F,2.93,Freshman,66,no
+380,2016,Agree,Agree,Disagree,NA,Agree,Disagree,Neutral,Disagree,C,A,C,A,course_2,F,2.68,Freshman,72,no
+381,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Disagree,Neutral,NA,B,D,B,course_1,F,3.01,Freshman,79,yes
+382,2016,Strongly agree,Agree,Disagree,NA,Agree,Disagree,Agree,Neutral,C,A,C,A,course_1,M,3.59,Freshman,63,no
+383,2017,Neutral,Agree,Agree,NA,Strongly agree,Agree,Neutral,Neutral,C,B,C,D,course_2,F,2.61,Freshman,40,yes
+384,2016,Neutral,Neutral,Neutral,NA,Agree,Disagree,Neutral,Neutral,C,B,C,C,course_1,F,3.24,Transfer,83,no
+385,2019,Agree,Strongly agree,Neutral,Neutral,Agree,Strongly disagree,Agree,Agree,C,A,B,D,course_2,F,2.18,Freshman,71,no
+386,2016,Agree,Agree,Agree,NA,Strongly agree,Neutral,Neutral,Agree,C,A,C,A,course_1,M,3.5,Freshman,69,no
+387,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Disagree,Disagree,D,D,D,D,course_1,F,2.52,Freshman,68,no
+388,2016,Strongly agree,Agree,Disagree,NA,Strongly agree,Agree,Disagree,Disagree,A,B,NA,A,course_1,F,3.36,Freshman,64,yes
+389,2017,Agree,Strongly agree,Agree,NA,Agree,Neutral,Disagree,Agree,A,A,C,A,course_1,F,3.32,Freshman,82,yes
+390,2017,Strongly agree,Agree,Neutral,NA,Agree,Agree,Agree,Agree,NA,B,C,A,course_2,F,3.77,Freshman,50,yes
+391,2019,Strongly agree,Strongly agree,Disagree,Neutral,Strongly agree,Neutral,Neutral,Neutral,C,A,C,A,course_1,F,NA,Freshman,58,NA
+392,2016,Strongly agree,Strongly agree,Strongly disagree,NA,Strongly agree,Strongly disagree,Agree,Disagree,C,A,C,A,course_2,F,4,Freshman,85,yes
+393,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Disagree,Neutral,Agree,A,A,C,A,course_2,F,2.76,Freshman,63,no
+394,2019,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Neutral,Neutral,Disagree,C,A,A,A,course_2,F,3.97,Freshman,73,yes
+395,2017,Neutral,Agree,Neutral,NA,Agree,Neutral,Agree,Neutral,NA,NA,D,B,course_2,F,3.78,Freshman,61,yes
+396,2018,Agree,Agree,Agree,Agree,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_1,M,2.9,Freshman,50,no
+397,2018,Agree,Agree,Neutral,Agree,Agree,Disagree,Neutral,Disagree,C,B,C,A,course_1,F,3.15,Freshman,102,no
+398,2017,Strongly agree,Agree,Agree,NA,Agree,Agree,Disagree,Disagree,NA,B,C,B,course_1,F,3.84,Freshman,81,yes
+399,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Neutral,C,B,C,B,course_2,M,2.51,Freshman,66,yes
+400,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Neutral,Neutral,NA,B,NA,A,course_2,F,NA,Transfer,75,no
+401,2016,Agree,Neutral,Agree,NA,Agree,Agree,Neutral,Disagree,NA,C,D,A,course_1,M,NA,Transfer,79,yes
+402,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Agree,Strongly agree,Agree,C,B,C,B,course_2,F,3.47,NA,68,yes
+403,2017,Agree,Neutral,Agree,NA,Agree,Disagree,Disagree,Neutral,A,D,A,A,course_1,M,3.68,Transfer,44,no
+404,2017,Agree,Agree,Neutral,NA,Strongly agree,Neutral,Disagree,Disagree,C,A,C,A,course_2,F,2.44,Freshman,45,no
+405,2019,Agree,Agree,Disagree,Neutral,Agree,Disagree,Disagree,Disagree,C,A,C,A,course_2,M,3.95,Freshman,84,yes
+406,2016,Strongly agree,Agree,Disagree,NA,Strongly agree,Agree,Disagree,Disagree,A,B,NA,A,course_1,F,2.84,Transfer,46,PNS
+407,2019,Strongly agree,Agree,Agree,Agree,Strongly agree,Strongly disagree,Neutral,Disagree,D,A,C,A,course_1,M,3.61,Freshman,81,no
+408,2017,Agree,Neutral,Strongly agree,NA,Strongly agree,Neutral,Agree,Agree,C,B,C,A,course_2,F,2.89,Freshman,70,yes
+409,2018,Agree,Neutral,Neutral,Neutral,Neutral,Strongly disagree,Disagree,Neutral,C,A,-99,-99,course_1,M,2.87,Transfer,42,no
+410,2017,Strongly agree,Agree,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,B,course_1,F,3.75,Transfer,39,no
+411,2017,Agree,Agree,Agree,NA,Strongly agree,Neutral,Disagree,Neutral,C,A,C,A,course_1,F,3.03,Freshman,53,yes
+412,2019,Agree,Agree,Neutral,Agree,Agree,Agree,Agree,Agree,C,D,C,A,course_2,F,2.98,Freshman,62,no
+413,2016,Strongly agree,Neutral,Neutral,NA,Agree,Neutral,Agree,Neutral,C,A,NA,A,course_2,M,3.65,Freshman,83,no
+414,2017,Agree,Disagree,Strongly disagree,NA,Strongly agree,Disagree,Disagree,Neutral,A,D,A,D,course_2,F,3.48,Transfer,84,yes
+415,2017,Agree,Agree,Neutral,NA,Agree,Agree,Neutral,Disagree,C,A,C,A,course_1,F,2.28,Freshman,73,no
+416,2019,Agree,Strongly agree,Disagree,Agree,Strongly agree,Disagree,Agree,Agree,A,A,C,A,course_2,F,3.85,Freshman,71,yes
+417,2018,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly disagree,Disagree,Neutral,B,B,B,D,course_1,F,3.42,Freshman,56,no
+418,2017,Neutral,Agree,Agree,NA,Agree,Neutral,Neutral,Disagree,A,A,C,A,course_1,M,2.59,Transfer,62,no
+419,2017,Agree,Disagree,Agree,NA,Agree,Strongly disagree,Agree,Strongly disagree,C,A,C,A,course_2,F,3.14,Freshman,63,no
+420,2016,Agree,Agree,Neutral,NA,Agree,Agree,Agree,Agree,NA,B,C,B,course_1,F,3.74,Freshman,79,no
+421,2016,Agree,Disagree,Strongly agree,NA,Neutral,Neutral,Neutral,Agree,C,B,C,B,course_2,M,3.32,Freshman,67,no
+422,2019,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Strongly disagree,C,D,C,A,course_2,F,2.55,Freshman,72,no
+423,2017,Agree,Agree,Strongly agree,NA,Strongly agree,Strongly disagree,Disagree,Disagree,C,A,C,A,course_2,M,2.44,Freshman,75,yes
+424,2019,Strongly agree,Strongly agree,Strongly agree,Neutral,Agree,Disagree,Neutral,Neutral,D,A,C,A,course_2,F,3.74,Freshman,94,no
+425,2019,Strongly agree,Agree,Neutral,Agree,Strongly agree,Neutral,Neutral,Disagree,D,B,C,A,course_2,F,2.52,Transfer,64,no
+426,2016,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,D,A,course_2,M,3.36,Freshman,59,yes
+427,2019,Agree,Strongly agree,Disagree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,C,A,C,A,course_1,F,3.79,Transfer,53,no
+428,2019,Agree,Neutral,Strongly agree,Neutral,Agree,Agree,Agree,Neutral,A,B,D,B,course_1,F,3.51,Transfer,78,no
+429,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_1,F,3.7,Freshman,71,yes
+430,2016,Agree,Agree,Disagree,NA,Agree,Neutral,Disagree,Disagree,NA,A,NA,A,course_1,F,3.34,Transfer,79,no
+431,2017,Agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly disagree,Neutral,Strongly disagree,A,D,A,D,course_2,F,3.56,Freshman,80,no
+432,2019,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Disagree,Disagree,Disagree,C,A,C,A,course_1,F,2.8,Transfer,64,no
+433,2017,Agree,Neutral,Agree,NA,Agree,Agree,Disagree,Agree,NA,D,A,B,course_1,F,2.76,Transfer,79,no
+434,2016,Agree,Agree,Disagree,NA,Strongly agree,Agree,Strongly agree,Disagree,C,A,C,A,course_1,F,3.05,Freshman,87,no
+435,2016,Strongly agree,Neutral,Neutral,NA,Agree,Strongly disagree,Neutral,Neutral,NA,A,C,A,course_1,M,2.58,Freshman,62,no
+436,2016,Agree,Agree,Disagree,NA,Agree,Neutral,Disagree,Agree,C,B,C,B,course_1,M,3.2,Freshman,77,no
+437,2019,Agree,Neutral,Agree,Neutral,Agree,Disagree,Agree,Neutral,C,B,C,C,course_1,F,3.71,Freshman,73,PNS
+438,2017,Strongly agree,Agree,Agree,NA,Agree,Disagree,Agree,Agree,C,D,C,A,course_2,F,2.59,Transfer,62,NA
+439,2019,Agree,Agree,Agree,Neutral,Strongly agree,Disagree,Disagree,Neutral,A,D,C,A,course_2,F,NA,Transfer,77,no
+440,2019,Agree,Strongly agree,Neutral,Neutral,Agree,Strongly disagree,Agree,Agree,C,A,B,D,course_1,M,3.05,Transfer,67,PNS
+441,2017,Agree,Agree,Strongly agree,NA,Strongly agree,Strongly disagree,Disagree,Disagree,C,A,C,A,course_1,M,3.08,Freshman,73,no
+442,2016,Neutral,Disagree,Neutral,NA,Agree,Strongly disagree,Disagree,Agree,NA,A,C,A,course_2,F,3.17,Freshman,92,no
+443,2016,Strongly agree,Strongly agree,Strongly agree,NA,Agree,Disagree,Disagree,Disagree,D,B,C,A,course_1,F,3.93,Freshman,63,yes
+444,2017,Agree,Strongly agree,Neutral,NA,Strongly agree,Neutral,Agree,Disagree,D,A,C,A,course_2,F,2.79,Transfer,66,no
+445,2017,Agree,Agree,Agree,NA,Agree,Disagree,Agree,Neutral,C,A,C,A,course_1,F,3.36,Transfer,65,no
+446,2017,Agree,Agree,Strongly agree,NA,Neutral,Neutral,Agree,Neutral,C,D,D,A,course_1,NA,3.14,Freshman,73,no
+447,2016,Neutral,Agree,Agree,NA,Agree,Agree,Agree,Neutral,C,A,C,C,course_1,F,3.43,Freshman,69,no
+448,2017,Agree,Neutral,Agree,NA,Agree,Agree,Disagree,Agree,NA,D,A,B,course_1,F,2.38,Freshman,71,yes
+449,2018,Agree,Agree,Agree,Agree,Strongly agree,Agree,Disagree,Agree,C,A,C,A,course_1,F,3.21,Freshman,66,NA
+450,2019,Strongly agree,Agree,Neutral,Neutral,Strongly agree,Agree,Agree,Neutral,C,D,D,B,course_1,F,3.41,Freshman,77,no
+451,2019,Neutral,Agree,Disagree,Agree,Agree,Neutral,Neutral,Disagree,A,B,C,B,course_2,F,3.62,Freshman,60,no
+452,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Agree,Disagree,A,D,A,B,course_1,M,2.82,Freshman,77,yes
+453,2018,Strongly agree,Agree,Agree,Neutral,Agree,Disagree,Strongly disagree,Agree,C,B,C,C,course_1,F,2.24,Freshman,73,no
+454,2018,Strongly agree,Agree,Strongly agree,Disagree,Strongly agree,Disagree,Agree,Disagree,A,A,A,A,course_2,M,3.13,Freshman,80,no
+455,2017,Neutral,Agree,Agree,NA,Strongly agree,Strongly disagree,Agree,Agree,D,A,C,A,course_2,F,3.29,Transfer,60,yes
+456,2019,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Neutral,C,B,C,B,course_1,F,3.24,Freshman,65,no
+457,2017,Agree,Neutral,Strongly agree,NA,Agree,Neutral,Neutral,Agree,C,A,C,A,course_1,F,2.5,Freshman,48,no
+458,2019,Strongly agree,Agree,Disagree,Agree,Agree,Agree,Agree,Neutral,A,A,C,A,course_1,F,3.5,Freshman,69,no
+459,2017,Agree,Agree,Disagree,NA,Agree,Strongly disagree,Strongly disagree,Disagree,C,A,C,A,course_1,F,NA,Freshman,68,no
+460,2017,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Disagree,A,A,A,A,course_2,M,2.56,Freshman,65,PNS
+461,2017,Strongly agree,Agree,Agree,NA,Agree,Strongly disagree,Agree,Disagree,NA,A,C,A,course_1,F,3.71,Freshman,77,PNS
+462,2017,Neutral,Disagree,Agree,NA,Agree,Agree,Agree,Neutral,C,D,C,B,course_1,F,3.62,Freshman,70,no
+463,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_1,F,3.54,Transfer,47,no
+464,2018,Neutral,Agree,Neutral,Neutral,Agree,Neutral,Neutral,Neutral,A,D,A,A,course_2,F,2.81,Freshman,48,yes
+465,2016,Agree,Neutral,Agree,NA,Strongly agree,Neutral,Agree,Agree,C,A,D,A,course_1,F,3.31,Transfer,99,no
+466,2017,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly disagree,Disagree,Agree,C,A,C,A,course_2,F,NA,Transfer,75,yes
+467,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Disagree,Disagree,A,B,A,B,course_1,F,3.55,Freshman,46,no
+468,2017,Agree,Agree,Agree,NA,Strongly agree,Disagree,Neutral,Neutral,C,D,C,B,course_1,NA,3.42,Transfer,80,yes
+469,2016,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Neutral,Neutral,Neutral,C,A,C,A,course_1,F,3.44,Freshman,69,yes
+470,2017,Agree,Agree,Strongly agree,NA,Agree,Neutral,Agree,Agree,A,D,A,B,course_2,F,3.63,Freshman,74,yes
+471,2018,Agree,Neutral,Strongly agree,Neutral,Strongly agree,Strongly disagree,Agree,Agree,C,A,C,B,course_1,F,2.99,Transfer,68,yes
+472,2018,Strongly agree,Agree,Agree,Agree,Strongly agree,Agree,Disagree,Agree,A,A,C,A,course_1,F,3.34,Freshman,73,no
+473,2017,Agree,Agree,Agree,NA,Agree,Strongly disagree,Neutral,Neutral,NA,A,C,A,course_1,F,NA,Freshman,91,no
+474,2016,Agree,Agree,Disagree,NA,Agree,Disagree,Agree,Disagree,C,A,C,A,course_1,F,3.69,Freshman,70,NA
+475,2019,Neutral,Agree,Strongly agree,Agree,Strongly agree,Disagree,Agree,Neutral,A,B,C,B,course_2,F,NA,Freshman,92,yes
+476,2019,Agree,Neutral,Agree,Neutral,Agree,Agree,Agree,Agree,A,D,A,D,course_2,M,3.05,Freshman,80,no
+477,2018,Agree,Strongly agree,Neutral,Agree,Strongly agree,Disagree,Disagree,Disagree,C,B,C,A,course_1,M,3.14,Freshman,76,no
+478,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Disagree,C,A,C,C,course_1,F,3.04,Freshman,53,no
+479,2018,Agree,Agree,Strongly agree,Agree,Strongly agree,Neutral,Disagree,Agree,C,B,A,D,course_2,F,3.7,Freshman,72,no
+480,2017,Neutral,Agree,Agree,NA,Strongly agree,Agree,Neutral,Neutral,C,B,C,D,course_1,M,3.88,Freshman,43,yes
+481,2019,Agree,Agree,Agree,Neutral,Agree,Disagree,Agree,Neutral,A,B,C,A,course_2,F,3.04,Freshman,69,no
+482,2019,Neutral,Agree,Neutral,Agree,Agree,Disagree,Neutral,Agree,A,A,A,A,course_2,F,2.36,Freshman,71,no
+483,2019,Agree,Agree,Neutral,Agree,Agree,Neutral,Neutral,Neutral,C,A,C,A,course_1,F,3.63,No Record,73,yes
+484,2017,Neutral,Neutral,Agree,NA,Neutral,Disagree,Agree,Neutral,C,A,C,A,course_1,M,3.94,Freshman,75,yes
+485,2018,Agree,Strongly disagree,Strongly agree,Agree,Neutral,Disagree,Agree,Neutral,C,A,B,A,course_2,M,3.63,Freshman,69,no
+486,2016,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Neutral,Agree,Strongly agree,C,A,D,B,course_2,F,3.29,Transfer,75,no
+487,2019,Strongly agree,Agree,Agree,Agree,Strongly agree,Disagree,Disagree,Neutral,A,A,C,A,course_2,F,3.37,Freshman,62,no
+488,2016,Agree,Agree,Disagree,NA,Strongly agree,Strongly disagree,Agree,Disagree,NA,B,C,A,course_2,F,3.05,Freshman,68,no
+489,2017,Strongly agree,Agree,Agree,NA,Agree,Strongly disagree,Agree,Disagree,NA,A,C,A,course_1,F,3.14,Freshman,74,no
+490,2016,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Disagree,Neutral,Disagree,C,B,C,A,course_2,F,3.87,Transfer,73,no
+491,2017,Agree,Agree,Agree,NA,Agree,Disagree,Neutral,Neutral,A,B,D,B,course_2,F,3.13,Freshman,78,no
+492,2017,Strongly agree,Agree,Agree,NA,Agree,Disagree,Agree,Agree,C,D,C,A,course_1,M,3.44,Transfer,78,yes
+493,2017,Agree,Agree,Agree,NA,Strongly agree,Disagree,Disagree,Agree,C,A,C,A,course_1,F,NA,Freshman,65,no
+494,2019,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Neutral,Strongly agree,Agree,C,D,C,B,course_2,F,3.15,Freshman,41,no
+495,2019,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Neutral,A,A,C,A,course_1,F,3.06,Transfer,65,no
+496,2019,Agree,Agree,Neutral,Neutral,Strongly agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,2.87,Freshman,59,no
+497,2016,Agree,Agree,Disagree,NA,Agree,Agree,Agree,Agree,NA,A,C,A,course_1,F,2.85,NA,76,no
+498,2017,Agree,Agree,Agree,NA,Strongly agree,Disagree,Neutral,Neutral,C,D,C,B,course_2,F,3.43,Freshman,70,no
+499,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,B,course_2,M,3.57,Freshman,67,yes
+500,2017,Neutral,Strongly agree,Neutral,NA,Strongly agree,Agree,Strongly agree,Neutral,C,B,C,A,course_2,F,2.94,Transfer,70,NA
+501,2017,Neutral,Neutral,Agree,NA,Strongly agree,Agree,Neutral,Neutral,D,B,C,D,course_1,F,3,Transfer,51,yes
+502,2017,Agree,Agree,Agree,NA,Agree,Neutral,Agree,Disagree,C,B,C,B,course_2,M,3.67,Freshman,62,yes
+503,2018,Neutral,Agree,Agree,Neutral,Neutral,Neutral,Agree,Neutral,A,A,A,A,course_1,F,2.51,Freshman,60,no
+504,2017,Agree,Agree,Agree,NA,Agree,Disagree,Disagree,Neutral,NA,D,C,B,course_2,M,3.44,Freshman,72,no
+505,2017,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Strongly disagree,Neutral,C,A,C,A,course_1,F,3.59,Freshman,78,no
+506,2016,Agree,Agree,Neutral,NA,Strongly agree,Agree,Disagree,Agree,C,D,C,B,course_2,F,3.56,Transfer,92,NA
+507,2016,Agree,Agree,Agree,NA,Agree,Disagree,Agree,Disagree,C,A,C,A,course_1,M,2.57,NA,81,no
+508,2017,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Agree,Neutral,C,B,C,A,course_1,M,3.68,No Record,75,yes
+509,2017,Strongly agree,Strongly agree,Agree,NA,Agree,Disagree,Neutral,Strongly agree,C,D,C,A,course_1,F,2.92,Transfer,64,no
+510,2019,Neutral,Disagree,Agree,Neutral,Agree,Disagree,Neutral,Neutral,C,B,C,B,course_2,F,2.95,Transfer,97,no
+511,2016,Agree,Agree,Agree,NA,Agree,Neutral,Disagree,Disagree,C,B,NA,B,course_1,M,3.03,Freshman,66,yes
+512,2016,Agree,Agree,Strongly agree,NA,Agree,Neutral,Agree,Agree,C,D,C,D,course_2,F,3.59,Transfer,65,yes
+513,2016,Agree,Agree,Agree,NA,Agree,Neutral,Disagree,Disagree,C,B,NA,B,course_2,M,3.94,Freshman,64,no
+514,2019,Strongly agree,Neutral,Strongly agree,Strongly disagree,Strongly agree,Neutral,Agree,Neutral,B,A,D,A,course_1,F,3.28,Freshman,76,no
+515,2016,Strongly agree,Agree,Neutral,NA,Strongly agree,Neutral,Neutral,Neutral,C,A,A,A,course_2,F,3.8,Freshman,76,yes
+516,2017,Strongly agree,Agree,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,B,course_2,F,3.1,Freshman,64,no
+517,2016,Neutral,Neutral,Neutral,NA,Agree,Disagree,Neutral,Neutral,C,B,C,C,course_1,M,3.86,Freshman,67,no
+518,2017,Agree,Agree,Strongly agree,NA,Agree,Neutral,Agree,Agree,A,D,A,B,course_2,F,3.59,Freshman,47,no
+519,2017,Agree,Disagree,Strongly agree,NA,Agree,Disagree,Agree,Agree,C,B,C,B,course_1,M,2.85,Freshman,74,yes
+520,2017,Neutral,Agree,Disagree,NA,Agree,Neutral,Agree,Disagree,C,B,C,B,course_1,M,2.94,Freshman,67,no
+521,2018,Strongly agree,Strongly agree,Disagree,Agree,Agree,Disagree,Agree,Agree,-99,A,C,A,course_1,F,NA,Freshman,86,no
+522,2017,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Disagree,Disagree,Agree,NA,A,C,A,course_1,M,3.96,Transfer,70,no
+523,2019,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Agree,C,B,C,B,course_1,F,2.82,Freshman,92,no
+524,2017,Agree,Neutral,Agree,NA,Agree,Disagree,Disagree,Neutral,A,D,A,A,course_2,F,2.88,Freshman,58,yes
+525,2019,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Neutral,Neutral,Disagree,C,A,A,A,course_1,M,3.42,Transfer,71,PNS
+526,2017,Neutral,Strongly agree,Disagree,NA,Strongly agree,Neutral,Disagree,Disagree,D,A,C,A,course_2,M,2.85,Transfer,63,yes
+527,2019,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Disagree,Strongly disagree,Strongly agree,C,A,C,A,course_1,F,3.71,Freshman,64,no
+528,2019,Strongly agree,Agree,Agree,Neutral,Agree,Neutral,Neutral,Neutral,C,A,C,C,course_2,M,2.85,Freshman,65,no
+529,2019,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Disagree,B,A,C,A,course_2,F,3.68,Freshman,79,no
+530,2017,Agree,Neutral,Agree,NA,Strongly agree,Neutral,Agree,Neutral,C,A,C,A,course_2,F,2.84,Freshman,72,no
+531,2016,Agree,Agree,Agree,NA,Neutral,Agree,Neutral,Neutral,C,B,C,C,course_1,F,2.96,Freshman,59,yes
+532,2017,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Neutral,Neutral,Disagree,NA,A,C,A,course_2,M,3.88,Freshman,67,no
+533,2018,Strongly agree,Agree,Disagree,Disagree,Strongly agree,Strongly disagree,Neutral,Disagree,C,B,D,A,course_2,F,2.59,Transfer,78,no
+534,2016,Agree,Agree,Agree,NA,Agree,Disagree,Neutral,Agree,NA,A,A,A,course_2,M,3.06,Transfer,68,yes
+535,2019,Agree,Agree,Agree,Neutral,Agree,Strongly disagree,Agree,Disagree,C,B,C,B,course_2,M,NA,Freshman,46,no
+536,2017,Agree,Strongly agree,Neutral,NA,Agree,Neutral,Neutral,Agree,B,A,C,A,course_1,F,3.39,Freshman,67,yes
+537,2017,Agree,Agree,Agree,NA,Agree,Neutral,Agree,Agree,A,B,A,B,course_1,M,3.5,Freshman,74,no
+538,2017,Agree,Disagree,Strongly agree,NA,Agree,Agree,Disagree,Agree,NA,B,C,B,course_2,F,3.39,Freshman,58,no
+539,2016,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Agree,Agree,C,A,C,A,course_1,F,3.24,Freshman,68,no
+540,2018,Strongly agree,Strongly agree,Disagree,Agree,Agree,Disagree,Agree,Agree,-99,A,C,A,course_2,F,3.57,Freshman,87,no
+541,2019,Agree,Agree,Neutral,Agree,Strongly agree,Disagree,Neutral,Neutral,D,A,C,A,course_2,M,3.24,Freshman,62,no
+542,2017,Agree,Agree,Neutral,NA,Strongly agree,Strongly disagree,Agree,Agree,NA,B,C,B,course_2,F,3.88,Freshman,61,no
+543,2018,Strongly agree,Agree,Strongly agree,Neutral,Agree,Strongly disagree,Agree,Strongly agree,C,A,C,A,course_2,M,3.36,Transfer,74,PNS
+544,2016,Strongly agree,Agree,Disagree,NA,Agree,Disagree,Agree,Neutral,C,A,C,A,course_2,M,3.24,Freshman,87,no
+545,2016,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Neutral,Agree,Strongly agree,C,A,D,B,course_2,F,3.48,Freshman,74,no
+546,2019,Strongly agree,Agree,Neutral,Neutral,Strongly agree,Disagree,Agree,Strongly disagree,A,B,A,A,course_2,M,3.29,NA,65,no
+547,2019,Agree,Strongly agree,Neutral,Agree,Agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,2.88,Freshman,72,no
+548,2016,Strongly agree,Strongly agree,Neutral,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_2,F,2.72,Freshman,77,yes
+549,2017,Neutral,Neutral,Strongly agree,NA,Strongly agree,Neutral,Neutral,Disagree,C,A,C,A,course_1,NA,3.59,Transfer,67,no
+550,2016,Agree,Neutral,Agree,NA,Agree,Agree,Neutral,Disagree,NA,C,D,A,course_1,F,3.35,Freshman,82,yes
+551,2016,Neutral,Neutral,Strongly agree,NA,Neutral,Disagree,Neutral,Neutral,C,A,C,A,course_2,M,2.28,Transfer,65,yes
+552,2018,Agree,Agree,Strongly agree,Agree,Strongly agree,Neutral,Agree,Neutral,C,A,-99,-99,course_2,F,3.25,Freshman,75,yes
+553,2017,Agree,Agree,Agree,NA,Strongly agree,Disagree,Disagree,Agree,C,A,C,A,course_2,F,2.95,NA,70,yes
+554,2017,Agree,Agree,Agree,NA,Agree,Neutral,Agree,Neutral,D,D,C,D,course_2,M,3.75,Freshman,67,no
+555,2017,Agree,Agree,Disagree,NA,Agree,Strongly disagree,Strongly disagree,Disagree,C,A,C,A,course_2,F,3.19,Freshman,88,no
+556,2017,Neutral,Agree,Agree,NA,Agree,Disagree,Neutral,Strongly agree,C,B,C,B,course_2,F,3.77,Freshman,75,PNS
+557,2017,Neutral,Disagree,Agree,NA,Agree,Agree,Agree,Neutral,C,D,C,B,course_2,F,3.15,Freshman,64,no
+558,2019,Strongly agree,Agree,Neutral,Agree,Agree,Neutral,Neutral,Neutral,C,A,C,A,course_1,F,3.13,Transfer,50,no
+559,2017,Strongly agree,Strongly agree,Strongly disagree,NA,Strongly agree,Disagree,Disagree,Agree,C,A,C,A,course_2,M,3.25,Transfer,57,yes
+560,2016,Agree,Neutral,Neutral,NA,Strongly agree,Agree,Agree,Agree,C,D,A,B,course_1,F,3.05,Freshman,79,no
+561,2017,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Strongly disagree,Disagree,A,B,A,B,course_1,F,3.28,Freshman,78,no
+562,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Agree,C,A,C,A,course_1,F,2.51,Freshman,46,no
+563,2017,Agree,Agree,Neutral,NA,Strongly agree,Neutral,Disagree,Disagree,C,A,C,A,course_2,M,2.57,Transfer,55,no
+564,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Agree,Strongly disagree,NA,B,C,D,course_2,M,2.2,Freshman,53,no
+565,2018,Agree,Agree,Strongly agree,Agree,Neutral,Strongly disagree,Agree,Agree,C,A,C,A,course_2,F,3.69,Freshman,79,yes
+566,2016,Agree,Agree,Disagree,NA,Agree,Disagree,Disagree,Neutral,D,A,C,B,course_2,F,4,Freshman,80,yes
+567,2016,Strongly agree,Neutral,Neutral,NA,Strongly agree,Disagree,Agree,Agree,C,A,C,A,course_2,F,2.27,Freshman,74,no
+568,2017,Agree,Neutral,Strongly agree,NA,Agree,Disagree,Agree,Strongly agree,A,D,A,B,course_2,F,3.34,Freshman,61,no
+569,2017,Strongly agree,Agree,Disagree,NA,Agree,Neutral,Strongly agree,Agree,NA,A,C,A,course_1,M,3.36,Freshman,52,no
+570,2018,Agree,Neutral,Agree,Strongly disagree,Agree,Disagree,Agree,Disagree,C,C,C,A,course_2,M,3.74,Freshman,89,yes
+571,2018,Strongly agree,Strongly agree,Neutral,Agree,Strongly agree,Strongly disagree,Strongly agree,Agree,C,A,C,A,course_1,F,2.94,Freshman,69,yes
+572,2016,Agree,Agree,Neutral,NA,Strongly agree,Disagree,Neutral,Neutral,NA,B,NA,A,course_1,F,3.3,Transfer,45,no
+573,2017,Neutral,Agree,Strongly agree,NA,Strongly agree,Agree,Disagree,Neutral,D,B,D,D,course_1,F,2.72,Freshman,68,no
+574,2016,Agree,Neutral,Disagree,NA,Agree,Neutral,Neutral,Neutral,C,D,C,A,course_2,F,2.56,Transfer,69,no
+575,2018,Neutral,Agree,Strongly agree,Agree,Agree,Neutral,Neutral,Agree,-99,A,A,A,course_2,F,3.76,Transfer,88,no
+576,2017,Agree,Agree,Neutral,NA,Strongly agree,Agree,Neutral,Agree,NA,D,A,D,course_2,F,2.66,Freshman,39,yes
+577,2016,Agree,Agree,Neutral,NA,Agree,Disagree,Agree,Neutral,NA,A,C,A,course_1,F,2.61,Freshman,55,no
+578,2016,Agree,Agree,Neutral,NA,Agree,Agree,Agree,Agree,NA,B,C,B,course_2,M,3.48,Freshman,67,no
+579,2018,Agree,Agree,Agree,Agree,Agree,Disagree,Neutral,Disagree,C,A,C,B,course_2,M,3.2,Freshman,68,no
+580,2017,Agree,Agree,Agree,NA,Agree,Agree,Agree,Agree,D,D,C,D,course_1,F,2.65,Freshman,62,no
+581,2018,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Neutral,Neutral,Disagree,D,A,C,A,course_1,M,3.17,Transfer,77,no
+582,2016,Agree,Agree,Disagree,NA,Agree,Neutral,Disagree,Disagree,NA,D,NA,A,course_2,F,3.27,Transfer,82,yes
+583,2017,Agree,Agree,Neutral,NA,Agree,Disagree,Agree,Disagree,C,D,C,D,course_2,M,3.65,Transfer,67,no
+584,2016,Agree,Neutral,Agree,NA,Strongly agree,Disagree,Agree,Disagree,C,A,C,A,course_2,F,2.9,Transfer,72,no
+585,2017,Neutral,Agree,Strongly agree,NA,Agree,Agree,Agree,Agree,C,B,C,D,course_1,M,3,Freshman,76,yes
+586,2017,Strongly agree,Strongly agree,Disagree,NA,Strongly agree,Strongly disagree,Strongly disagree,Disagree,C,B,D,D,course_1,F,3.98,Freshman,69,no
+587,2017,Agree,Agree,Agree,NA,Strongly agree,Disagree,Neutral,Neutral,C,D,C,B,course_2,F,3.07,Freshman,59,yes
+588,2017,Neutral,Agree,Neutral,NA,Strongly agree,Neutral,Agree,Neutral,C,D,C,D,course_1,F,3.14,Freshman,73,yes
+589,2017,Agree,Strongly agree,Disagree,NA,Strongly agree,Strongly disagree,Neutral,Neutral,NA,A,C,A,course_1,M,2.51,Freshman,70,no
+590,2019,Strongly agree,Strongly agree,Neutral,Agree,Strongly agree,Agree,Neutral,Disagree,A,B,C,A,course_1,F,3.56,Freshman,67,no
+591,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,NA,A,NA,A,course_2,F,NA,Freshman,63,no
+592,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,D,C,B,course_2,F,3.18,Freshman,63,no
+593,2017,Neutral,Agree,Agree,NA,Agree,Disagree,Neutral,Strongly agree,C,B,C,B,course_1,F,3.4,Freshman,68,no
+594,2016,Agree,Agree,Agree,NA,Agree,Disagree,Disagree,Disagree,NA,A,NA,A,course_1,M,3.95,Freshman,74,yes
+595,2017,Agree,Neutral,Neutral,NA,Neutral,Agree,Disagree,Agree,C,B,C,B,course_2,F,2.72,Freshman,89,yes
+596,2017,Agree,Neutral,Neutral,NA,Neutral,Neutral,Neutral,Agree,NA,B,C,A,course_1,NA,3.59,Transfer,63,no
+597,2017,Agree,Neutral,Strongly agree,NA,Agree,Neutral,Disagree,Disagree,NA,D,C,C,course_2,F,2.46,Freshman,59,yes
+598,2016,Agree,Agree,Neutral,NA,Agree,Neutral,Neutral,Neutral,C,B,A,D,course_1,F,2.72,Freshman,86,PNS
+599,2019,Agree,Neutral,Strongly agree,Neutral,Strongly agree,Agree,Strongly agree,Agree,C,D,C,D,course_1,F,3.6,Freshman,84,no
+600,2017,Neutral,Agree,Neutral,NA,Strongly agree,Neutral,Agree,Neutral,C,D,C,D,course_2,M,2.98,Freshman,50,no

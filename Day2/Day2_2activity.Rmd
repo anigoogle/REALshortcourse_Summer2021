@@ -1,0 +1,66 @@
+---
+title: "Day2_2activity"
+author: "Emily Weigel"
+date: "7/28/2021"
+output: html_document
+---
+
+
+## Review
+Now that you have been introduced to `ggplot`, let's practice. Remember that plots are built in layers: **plot= data + geom_ + aesthetics**. We have to specify each of these in order for a plot to be produced. If you get stuck, it is often helpful to stop and make a quick sketch of what you want or expect to see on a piece of scratch paper.  
+
+Let's review using the `penguins` data. First, get an idea of the structure: Are the data tidy? Are there NA's? Are the variables discrete, categorical, or continuous?
+```{r}
+library(palmerpenguins)
+library(tidyverse)
+penguins
+```
+
+Let's examine how many penguins are on each island.
+```{r}
+penguins %>% 
+  count(island, species, sort = F)
+```
+
+What if we wanted a plot that showed the number of measured penguins per species and the number of measured penguins per island?
+```{r}
+penguins %>% 
+  group_by(island) %>% 
+  ggplot(aes(x=species))+
+  geom_bar()
+```
+
+```{r}
+penguins %>% 
+  group_by(species) %>% 
+  ggplot(aes(x=island))+
+  geom_bar()
+```
+
+How about average bill length by sex?
+```{r}
+penguins %>% 
+  filter(sex!="NA") %>% 
+  group_by(sex) %>% 
+  summarise(ave_bill_length=mean(bill_length_mm))
+```
+
+```{r}
+penguins %>% 
+  filter(sex!="NA") %>% 
+  group_by(sex) %>% 
+  summarise(ave_bill_length=mean(bill_length_mm)) %>% 
+  ggplot(aes(x=sex, y=ave_bill_length)) +
+  geom_col()
+```
+
+```{r}
+penguins
+```
+
+##Resources
+- [ggplot2 cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+- [`ggplot` themes](https://ggplot2.tidyverse.org/reference/ggtheme.html)
+- [Rebecca Barter `ggplot` Tutorial](http://www.rebeccabarter.com/blog/2017-11-17-ggplot2_tutorial/)
+
+## That's it! Good work on this!

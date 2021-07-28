@@ -30,7 +30,9 @@ Here is the Github location of the [Day 2 Prep Work](https://github.com/robertme
 
 Major topic - plotting in R
 
-Details and documents: coming soon, stay tuned!
+We will work through the [Day 2 lesson](https://robertmerdmann.github.io/REALshortcourse_Summer2021/Day2/Day2_1.html) together - which will cover the importing of data from external files, all the way through using ggplot2 to build scatterplots and barplots.
+
+It is unlikely that we'll get to the [Day 2 activity](https://robertmerdmann.github.io/REALshortcourse_Summer2021/Day2/Day2_2activity.html) during our synchronous time, but it is here for your reference even if we don't!
 
 
 ### Community Information
@@ -56,4 +58,8 @@ Joel Ledford - University of California - Davis (jmledford@ucdavis.edu)
 Kelsey Metzger - University of Minnesota Rochester (kmetzger@r.umn.edu)
 
 Emily Weigel - Georgia Institute of Technology (emily.weigel@biosci.gatech.edu)
+
+
+
+An important attribution note - many of the lessons that we are using in this short course are lightly modified versions of lessons originally developed by steering committee member Joel Ledford for his "Data Science for Biologists" course (BIS 15L at the University of California - Davis).  
 

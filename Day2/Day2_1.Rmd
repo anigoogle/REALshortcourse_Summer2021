@@ -1,0 +1,220 @@
+---
+title: "Day 2"
+author: "Emily Weigel"
+date: "7/28/2021"
+output:
+  html_document:
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+## Setup
+At the start (or before) each session, please make sure that you complete the following:  
+1. Go to the our repository [REALshortcourse_Summer2021](https://robertmerdmann.github.io/REALshortcourse_Summer2021/), click the `Clone or download` button then `Download zip` to the desktop.  
+2. Copy the files for today's lab from the class repository and paste them into **your** repository.  
+3. Open today's lab in RStudio. 
+
+## Learning Goals
+*At the end of this exercise, you will be able to:*    
+1. Define an object in R.  
+2. Use objects to perform calculations.
+3. Import .csv files as data frames using `read_csv()`.  
+4. Understand and apply the syntax of building plots using `ggplot2`.  
+5. Build a scatterplot using `ggplot2`.  
+6. Build a barplot using `ggplot2`.  
+
+## Breakout Rooms  
+Please take 5 minutes to check over your answers to the pre-work and note any places of common confusion. If you get stuck or need help, don't forget to ask us!
+
+## Objects
+In order to access the potential of R we need to assign values or other types of data to `objects`. Format matters, so pay close attention. 
+
+Once an object has been created, you can do things with them.  For example, let's say we have a certain number of participants in either a treatment or control group.
+```{r}
+treatment <- 36
+control <- 38
+```
+Let's make a new object `my_experiment` that is the sum of the treatment and control, just so we know how many people are in our experiment. Notice that we use `_` and not spaces.  
+```{r}
+my_experiment <- sum(treatment, control)
+my_experiment
+```
+
+## Nomenclature
+We need to be careful about nomenclature when we write code. R allows us to give almost any name we want to an object, but there are exceptions. For example, we don't want to give a name to an object that is the same as a function in R.  
+```{r eval=FALSE, include=TRUE}
+else <- 12
+```
+
+We get an error here because `else` is a function in R. You also don't want to give names that might get confused with functions; i.e. you can assign a value to 'mean' but this could become confusing because mean is used as a function. We also don't want an object to start with a number, e.g. 100people.  
+
+## Types of Data and Missing Data
+There are five frequently used `classes` of data: 1. numeric, 2. integer, 3. character, 4. logical, 5. complex. And sometimes data will just be missing. We'll work on handling that in future weeks. For now, let's assume perfect data. 
+
+## Review
+At this point, you should have familiarity in RStudio, GitHub, and basic operations in R. Now we're going to begin working with 'bigger' data.
+
+## Install and load the tidyverse!
+We'll use this package, tidyverse, to help us read and understand the data within the R environment. When you are using a package, remember that you'll need to call it from your library to use it  (and if you don't have it, install it before that!)
+```{r message=FALSE, warning=FALSE}
+#install.packages("tidyverse")
+library(tidyverse)
+```
+
+## Data Frames and Importing Data
+As we move forward, we will work pretty exclusively with data frames. Although we can make them in R, it's much more common that you will need to work with data files. As data scientists, we capitalize on this by importing data directly into R. 
+
+R allows us to import a wide variety of data types. The most common type of file is a .csv file which stands for comma separated values. Spreadsheets are often developed in Excel then saved as .csv files for use in R. There are packages that allow you to open excel files and many other formats directly, but .csv is the most common.  
+
+An opinionated word about excel. It is fine to use excel for data entry and basic analysis. But, it often adds formatting that makes excel files difficult to work with in any program besides excel. R can read excel files, but they are not used routinely. Instead they save copies of their excel files as .csv which strips away formatting but makes them easier to use in a variety of programs. We won't work with excel files, but we will learn to import them.  
+
+To import any file, first make sure that you are in the correct working directory. If you are not in the correct directory, R will not "see" the file.
+```{r}
+getwd()
+```
+
+## Load the data
+Here we open a .csv file. Since we are using the tidyverse, we open the file using `read_csv()`. `readr` is included in the tidyverse set of packages we loaded. We specify the package and function with the `::` symbol. This becomes important if you have multiple packages loaded that contain functions with the same name.  
+
+Let's load in an example `.csv` of education data. Let's save it as an object called 'eddatawide' that will serve as a dataframe for plotting. 
+```{r}
+eddatawide <- readr::read_csv("workshop_wide.csv")
+```
+
+## Looking at the data
+Notice that when the data are imported, you are presented with a message that tells you how R interpreted the column classes. This is also where error messages will appear if there are problems. we will continue to assume perfect data for now, but later, we'll show you what happens in reality. 
+
+## Summary functions
+Once data have been uploaded, you may want to get an idea of its structure, contents, and dimensions. This can be helpful for seeing not only that the data were read in correctly, but whether there are unexpected issues (e.g. variable names, how R is understanding a variable type, etc.) 
+
+Use the `str()` function to get an idea of the data structure of `eddatawide`.  
+```{r}
+str(eddatawide)
+```
+
+We can also summarize our data frame with the`summary()` function.  
+```{r}
+summary(eddatawide)
+```
+
+`glimpse()` is another useful summary function.
+```{r}
+glimpse(eddatawide)
+```
+
+And `table()` is useful when you have a limited number of categorical variables. It produces fast counts of the number of observations in a variable. Here we are using the "$" symbol to select a column of data (year) within our larger data frame (eddatawide). We will come back to this later... 
+
+```{r}
+table(eddatawide$year)
+```
+
+The above are all ways to get an idea of your data. If you'd prefer, you can also click on the `eddatawide` data frame in the Environment tab or type View(eddatawide).
+```{r}
+#View(eddatawide)
+```
+
+ 
+## Libraries
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(naniar)
+library(janitor)
+library(here)
+library(skimr)
+library(palmerpenguins)
+```
+
+
+## Grammar of Graphics
+The ability to quickly produce and edit graphs and charts is a strength of R. These data visualizations are produced by the package `ggplot2` and it is a core part of the tidyverse. The syntax for using ggplot is specific and common to all of the plots. This is what Hadley Wickham calls a [Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf). The "gg" in `ggplot` stands for grammar of graphics.
+
+## Data Types
+We first need to define some of the data types we will use to build plots.  
+
++ `discrete` quantitative data that only contains integers
++ `continuous` quantitative data that can take any numerical value
++ `categorical` qualitative data that can take on a limited number of values
+
+## Basics
+The syntax used by ggplot takes some practice to get used to, especially for customizing plots, but the basic elements are the same. It is helpful to think of plots as being built up in layers.  
+
+In short, **plot= data + geom_ + aesthetics**.  
+
+## Scatterplots and barplots
+Now that we have a general idea of the syntax, let's start by working with two standard plots: 1) scatter plots and 2) bar plots.
+
+### 1. Scatter Plots
+Scatter plots are good at revealing relationships that are not readily visible in the raw data. For now, we will not add regression lines or calculate any r^2^ values.  
+
+In the case below, we are exploring whether or not there is a relationship between final exam scores and prior GPA.
+```{r}
+names(eddatawide)
+```
+
+```{r}
+ggplot(data = eddatawide, mapping = aes(x = final_exam, y = gpa_prior)) + geom_point()
+```
+
+In big data sets with lots of overlapping values, over-plotting can be an issue. `geom_jitter()` is similar to `geom_point()` but it helps with over plotting by adding some random noise to the data and separating some of the individual points. (Taking a closer look: on which axis is it easier to spot the impact of the jitter at a glance?  What about the data causes this?)
+```{r}
+ggplot(data = eddatawide, mapping = aes(x = final_exam, y = gpa_prior)) +
+  geom_jitter()
+```
+
+To add a regression (best fit) line, we just add another layer.
+```{r}
+ggplot(data=eddatawide, mapping=aes(x = final_exam, y = gpa_prior)) +
+  geom_point()+
+  geom_smooth(method=lm, se=T) #adds the regression line, `se=TRUE` will add standard error
+```
+
+### Reflect
+1. What is the relationship between final_exam and gpa_prior? 
+2. What do you notice about how ggplot treats NA's by default?
+
+### 2. Bar Plots using `geom_bar()`
+The simplest type of bar plot counts the number of observations in a categorical variable. In this case, we want to know how many observations are present in the variable `year`. Notice that we do not specify a y-axis because it is count by default.  
+
+```{r}
+names(eddatawide)
+```
+ Here, we'll introduce the concept of the pipe for the first time - "%>%".  The pipe takes a set of data and passes it along to whatever function is used on the following line. In this case, we are saying that we will be using the eddatawide data table, and using that to perform a count function on the year column (contained within the eddatawide data set).
+```{r}
+eddatawide %>% 
+ count(year)
+```
+
+The `mapping=` function is implied by `aes` and so is often left out - something to note when trying to read/use other people's code. 
+```{r}
+eddatawide %>% 
+  ggplot(aes(x=year)) + 
+  geom_bar()
+```
+
+### Bar Plot: `geom_col()`
+Unlike `geom_bar()`, `geom_col()` allows us to specify an x-axis and a y-axis.
+```{r}
+eddatawide %>% 
+  #filter(admit_level=="Transfer") %>% 
+  ggplot(aes(x=year, y=gpa_prior))+
+  geom_col()
+```
+
+Notice that in the above plots, the y-axis is titled "gpa_prior" but the scale goes from 0 to 700! What does the y-axis really represent in this case?
+
+If we want to move past this default behavior for bar charts, we can use "stat_summary" to plot the summary statistics for the same bar chart.  How does this chart differ?    
+```{r}
+eddatawide %>% 
+  #filter(admit_level=="Transfer") %>% 
+  ggplot()+
+  stat_summary(
+    mapping=aes(x=year, y=gpa_prior),
+    fun.y = median, 
+    geom = "bar"
+  )
+```
+
+
