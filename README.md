@@ -34,6 +34,10 @@ We will work through the [Day 2 lesson](https://robertmerdmann.github.io/REALsho
 
 It is unlikely that we'll get to the [Day 2 activity](https://robertmerdmann.github.io/REALshortcourse_Summer2021/Day2/Day2_2activity.html) during our synchronous time, but it is here for your reference even if we don't!
 
+### Between Day Two and Day Three
+
+Here is the Github location of the [Day 2 homework](https://github.com/robertmerdmann/REALshortcourse_Summer2021/blob/30341e9b9741ad29486029c34a04d47c13a2cbb0/Day2Homework/Day2_hw.Rmd) - the ["Day2Homework"](https://github.com/robertmerdmann/REALshortcourse_Summer2021/tree/main/Day2Homework) folder contains both this RMarkdown file as well as the .csv file with the necessary data.  Happy plotting!
+
 
 ### Community Information
 
