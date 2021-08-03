@@ -60,8 +60,8 @@ At this point, you should have familiarity in RStudio, GitHub, and basic operati
 ## Install and load the tidyverse!
 We'll use this package, tidyverse, to help us read and understand the data within the R environment. When you are using a package, remember that you'll need to call it from your library to use it  (and if you don't have it, install it before that!)
 ```{r message=FALSE, warning=FALSE}
-#install.packages("tidyverse")
-library(tidyverse)
+install.packages("tidyverse")
+library("tidyverse")
 ```
 
 ## Data Frames and Importing Data
@@ -74,12 +74,17 @@ An opinionated word about excel. It is fine to use excel for data entry and basi
 To import any file, first make sure that you are in the correct working directory. If you are not in the correct directory, R will not "see" the file.
 ```{r}
 getwd()
+setwd("~/GitHub/REALshortcourse_Summer2021/Day2")
 ```
 
 ## Load the data
 Here we open a .csv file. Since we are using the tidyverse, we open the file using `read_csv()`. `readr` is included in the tidyverse set of packages we loaded. We specify the package and function with the `::` symbol. This becomes important if you have multiple packages loaded that contain functions with the same name.  
 
 Let's load in an example `.csv` of education data. Let's save it as an object called 'eddatawide' that will serve as a dataframe for plotting. 
+```{r}
+```
+
+
 ```{r}
 eddatawide <- readr::read_csv("workshop_wide.csv")
 ```
