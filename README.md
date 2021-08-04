@@ -38,6 +38,12 @@ It is unlikely that we'll get to the [Day 2 activity](https://robertmerdmann.git
 
 Here is the Github location of the [Day 2 homework](https://github.com/robertmerdmann/REALshortcourse_Summer2021/blob/30341e9b9741ad29486029c34a04d47c13a2cbb0/Day2Homework/Day2_hw.Rmd) - the ["Day2Homework"](https://github.com/robertmerdmann/REALshortcourse_Summer2021/tree/main/Day2Homework) folder contains both this RMarkdown file as well as the .csv file with the necessary data.  Happy plotting!
 
+### Day Three (August 4, 2021)
+
+Major topic - plotting in R, continued
+
+We will work through the [Day 3 lesson](https://robertmerdmann.github.io/REALshortcourse_Summer2021/Day3/Day3_1.html) together. We'll review our initial plotting skills from last week's session, explore new ways to manipulate our data as we plot, and learn how to customize our plotting outputs.
+
 
 ### Community Information
 

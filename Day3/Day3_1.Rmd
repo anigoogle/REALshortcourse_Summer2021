@@ -1,0 +1,370 @@
+---
+title: "Data Visualization: `ggplot` part 2"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+## Learning Goals
+*At the end of this exercise, you will be able to:*    
+1. Practice applying the syntax of building plots using `ggplot2`.  
+2. Build a boxplot using `ggplot2`.  
+3. Customize labels on axes using `labs` and `themes`.  
+4. Use `color`, `fill`, and `group` to customize plots and improve overall aesthetics.  
+
+## Where have we been, and where are we going?
+At this point, we've plotted a few things and have a high-level understanding of how R can read in and summarize data. It is OK if you need to go back through past work and find bits of code that work for you, but try and force yourself to originate new chunks.   
+
+## Libraries
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(naniar)
+library(janitor)
+library(here)
+library(skimr)
+library(janitor)
+library(here)
+library(palmerpenguins)
+```
+
+## Review
+Now that you have been introduced to `ggplot`, let's practice a few more plot types. Remember that plots are built in layers: **plot= data + geom_ + aesthetics**. We have to specify each of these in order for a plot to be produced. If you get stuck, it is often helpful to stop and make a quick sketch of what you want or expect to see on a piece of scratch paper.  
+
+Let's review using the `penguins` data. First, get an idea of the structure: Are there NA's? Are the variables discrete, categorical, or continuous?
+```{r}
+penguins
+```
+
+To start, let's determine how many penguins are on an island in this data.
+```{r}
+penguins %>% count(island, species, sort = F)
+```
+
+What if we wanted a plot that showed the number of measured penguins per species and the number of measured penguins per island?
+```{r}
+penguins %>% 
+  group_by(island) %>% 
+  ggplot(aes(x=species))+
+  geom_bar()
+```
+
+How about average bill length by sex?
+```{r}
+penguins %>% 
+  filter(sex!="NA") %>% 
+  group_by(sex) %>% 
+  summarise(ave_bill_length=mean(bill_length_mm))
+```
+
+```{r}
+penguins %>% 
+  filter(sex!="NA") %>% 
+  group_by(sex) %>% 
+  summarise(ave_bill_length=mean(bill_length_mm)) %>% 
+  ggplot(aes(x=sex, y=ave_bill_length)) +
+  geom_col()
+```
+
+## Phew! So far so good. Now let's take a more in-depth example 
+
+**Database of vertebrate home range sizes.**  
+Reference: Tamburello N, Cote IM, Dulvy NK (2015) Energy and the scaling of animal space use. The American Naturalist 186(2):196-211. http://dx.doi.org/10.1086/682070.  
+Data: http://datadryad.org/resource/doi:10.5061/dryad.q5j65/1  
+```{r}
+homerange <- read_csv("Tamburelloetal_HomeRangeDatabase.csv")
+```
+
+## Practice
+1. What is the structure of the `homerange` data? Does it have any NA's? Do a quick exploratory analysis of your choice below.
+```{r}
+glimpse(homerange)
+```
+
+```{r}
+naniar::miss_var_summary(homerange)
+```
+
+
+### 1. Scatter Plot: Review
+Scatter plots are good at revealing relationships that are not readily visible in the raw data. For now, we will not add regression lines or calculate any r^2^ values.  
+
+In the case below, let's explore whether or not there is a relationship between animal mass and home range. We are using the **log transformed values** because there is a large difference in mass and home range among the different species in the data.
+
+As we go through each of these steps, quiz yourself on what you remember.
+
+Let's first grab our variables. What's a command we can use to know what they are called? 
+```{r}
+names(homerange)
+```
+
+Remember that big datasets have data that may overlap. We used `geom_jitter()` before to add some random noise to the data and separating some of the individual points. Let's write a plot for this.
+```{r}
+ggplot(data = homerange, mapping = aes(x = log10.mass, y = log10.hra)) +
+  geom_jitter()
+```
+
+And let's add a best fit line. What did we change that added the line? 
+```{r}
+ggplot(data=homerange, mapping=aes(x=log10.mass, y=log10.hra)) +
+  geom_point()+
+  geom_smooth(method=lm, se=T) #adds the regression line, `se=TRUE` will add standard error
+```
+
+### 2. Bar Plot: Review and expand
+
+Let's take a look at the variable `trophic.guild`. We'll repeat some of the steps from before in barplotting, and then we'll practice plotting new things!  
+
+We will first specify an x-axis and a y-axis. 
+```{r}
+homerange %>% 
+  filter(family=="salmonidae") %>% 
+  ggplot(aes(x=common.name, y=log10.mass))+
+  geom_col()
+```
+Take a look at the graph. What's that line that says 'filter' probably doing?
+
+Let's plot another one. Take a look at the graph and trace back what the code was asking.
+```{r}
+homerange %>% 
+  group_by(class) %>% 
+  summarize(mean_body_wt=mean(log10.mass)) %>% 
+  ggplot(aes(x=class, y=mean_body_wt))+
+  geom_col()
+```
+
+## Checking in. How would we...?
+1. Filter the `homerange` data to include `mammals` only.
+
+```{r}
+homerange %>% 
+  filter(class=="mammalia")
+```
+
+2. Make a bar plot that shows the relative numbers of herbivores or carnivores in our dataset (e.g. Are there more herbivores or carnivores in mammals?)
+```{r}
+homerange %>% 
+  filter(class=="mammalia") %>% 
+  group_by(trophic.guild) %>% 
+  count()
+```
+```{r}
+homerange %>% 
+  filter(class=="mammalia") %>% 
+  group_by(trophic.guild) %>% 
+  count() %>% 
+  ggplot(aes(y=trophic.guild, x=n))+
+  geom_col()
+```
+
+
+## Box Plots
+
+
+Boxplots help us visualize a range of values. So, on the x-axis we typically have something categorical and the y-axis is the range. In the case below, we are plotting `log10.mass` by taxonomic class in the `homerange` data. `geom_boxplot()` is the geom type for a standard box plot. The center line in each box represents the median, not the mean.
+
+Let's look at the variable `log10.mass` grouped by taxonomic class.
+```{r}
+homerange %>% 
+  group_by(class) %>% 
+  summarize(min_log10.mass=min(log10.mass),
+            max_log10.mass=max(log10.mass),
+            median_log10.mass=median(log10.mass))
+```
+
+```{r}
+homerange %>% 
+  ggplot(aes(x = class, y = log10.mass)) +
+  geom_boxplot()
+```
+
+
+## Practice
+1. There are more herbivores than carnivores in the homerange data, but how do their masses compare? Make a summary and boxplot that compares their masses. Use `log10.mass`.
+```{r}
+homerange %>% 
+  group_by(trophic.guild) %>% 
+  summarize(min_log10.mass=min(log10.mass),
+            max_log10.mass=max(log10.mass),
+            mean_log10.mass=mean(log10.mass),
+            median_log10.mass=median(log10.mass),
+            total_n=n())
+```
+
+```{r}
+homerange %>% 
+  ggplot(aes(x=trophic.guild, y=log10.mass))+
+  geom_boxplot()
+```
+
+2. Have a closer look at carnivorous mammals. Summarize and visualize the range of log10.mass by family.
+```{r}
+homerange %>% 
+  filter(taxon=="mammals" & trophic.guild=="carnivore") %>% 
+  summarize(min_log10.mass=min(log10.mass),
+            max_log10.mass=max(log10.mass),
+            mean_log10.mass=mean(log10.mass),
+            median_log10.mass=median(log10.mass),
+            total_n=n()) %>% 
+  pivot_longer(cols=everything(),
+               names_to="measurement",
+               values_to="value")
+```
+
+3. Now use a boxplot to visualize the range of body mass by family of mammalian carnivore.
+```{r}
+homerange %>% 
+  filter(taxon=="mammals" & trophic.guild=="carnivore") %>% 
+  select(family, log10.mass) 
+```
+
+```{r}
+homerange %>% 
+  filter(taxon=="mammals" & trophic.guild=="carnivore") %>% 
+  select(family, log10.mass) %>% 
+  ggplot(aes(x=family, y=log10.mass))+
+  geom_boxplot()+
+  coord_flip()+
+  labs(title="Family vs. Log10.mass")
+```
+
+
+## Aesthetics: Labels
+Now that we have practiced scatter plots, bar plots, and box plots we need to learn how to adjust their appearance to suit our needs. Let's start with labeling x and y axes.  
+
+Let's revisit the plot of log10.mass and log10.hra.
+```{r}
+ggplot(data=homerange, mapping=aes(x=log10.mass, y=log10.hra)) +
+  geom_point()+
+  geom_smooth(method=lm, se=T)
+```
+
+The plot looks clean, but it is incomplete. A reader unfamiliar with the data might have a difficult time interpreting the labels. To add custom labels, we use the `labs` command.
+```{r}
+ggplot(data=homerange, mapping=aes(x=log10.mass, y=log10.hra)) +
+  geom_point()+
+  geom_smooth(method=lm, se=T)+
+  labs(title="Log 10 Mass vs. Log 10 Home Range Area",
+       x="Log 10 Mass (g)",
+       y="Log 10 Home Range Area (m2)")
+```
+
+We can improve the plot further by adjusting the size and face of the text. We do this using `theme()`.
+```{r}
+ggplot(data=homerange, mapping=aes(x=log10.mass, y=log10.hra)) +
+  geom_point()+
+  geom_smooth(method=lm, se=T)+
+  labs(title="Log 10 Mass vs. Log 10 Home Range Area",
+       x="Log 10 Mass (g)",
+       y="Log 10 Home Range Area (m2)") +
+  theme(plot.title = element_text(size = 12, face = "bold"),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 10))
+```
+
+The `rel()` option changes the relative size of the title to keep things consistent. Adding `hjust` allows control of title position.
+```{r}
+ggplot(data=homerange, mapping=aes(x=log10.mass, y=log10.hra)) +
+  geom_point()+
+  geom_smooth(method=lm, se=T)+
+  labs(title="Log 10 Mass vs. Log 10 Home Range Area",
+       x="Log 10 Mass",
+       y="Log 10 Home Range Area (m2)") +
+  theme(plot.title = element_text(size = rel(1.5), hjust = 0.5))
+```
+
+## Other Aesthetics
+There are lots of options for aesthetics. An aesthetic can be assigned to either numeric or categorical data. `fill` is a common grouping option; notice that an appropriate key is displayed when you use one of these options.
+```{r}
+  ggplot(data=homerange, aes(x=realm, fill=realm))+geom_bar()+
+  labs(title = "# Species by Realm",
+       x = "realm",
+       y = NULL) +
+  theme(plot.title = element_text(size = rel(1.5), hjust = 0.5))
+```
+
+`size` adjusts the size of points relative to a continuous variable.
+```{r}
+  ggplot(data=homerange, aes(x=log10.hra, y=log10.mass, size=log10.hra))+
+  geom_point(na.rm=T)
+```
+
+## A few more useful aesthetics
+There are many options to create nice plots in ggplot. One useful trick is to store the plot as a new object and then experiment with geom's and aesthetics.
+```{r}
+p <- homerange %>% 
+  ggplot(aes(x= log10.mass, y= log10.hra))
+```
+
+Play with point size.
+```{r}
+p +geom_point(size=1)
+```
+
+Map shapes to another categorical variable.
+```{r}
+p+geom_point(aes(shape=thermoregulation, color=thermoregulation), size=1.75)
+```
+
+## Barplots and multiple variables
+At this point you should be comfortable building bar plots that shows counts of observations using `geom_bar()`. Last time we explored the `fill` option in box plots as a way to bring color to the plot; i.e. we filled by the same variable that we were plotting. What happens when we fill by a different categorical variable?  
+
+Let's start by counting how many observations we have in each taxonomic group.
+```{r}
+homerange %>% count(taxon)
+```
+
+Now let's make a bar plot of these data.
+```{r}
+homerange %>% 
+  ggplot(aes(x = taxon)) + geom_bar() +
+  coord_flip() +
+  labs(title = "Observations by Taxon in Homerange Data",
+       x = "Taxonomic Group")
+```
+
+By specifying `fill=trophic.guild` we build a stacked bar plot that shows the proportion of a given taxonomic group that is an herbivore or carnivore.
+```{r}
+homerange %>% 
+  ggplot(aes(x = taxon, fill = trophic.guild)) + geom_bar() +
+  coord_flip() +
+  labs(title = "Observations by Taxon in Homerange Data",
+       x = "Taxonomic Group",
+       fill = "Trophic Guild")
+```
+
+We can also have counts of each trophic guild within taxonomic group shown side-by-side by specifying `position="dodge"`.
+```{r}
+homerange %>% 
+  ggplot(aes(x = taxon, fill = trophic.guild)) + geom_bar(position = "dodge") +
+  coord_flip() +
+  labs(title = "Observations by Taxon in Homerange Data",
+       x = "Taxonomic Group",
+       fill = "Trophic Guild")
+```
+
+Here is the same plot oriented vertically.
+```{r}
+homerange %>% 
+  ggplot(aes(x = taxon, fill = trophic.guild)) +
+  geom_bar(position = "dodge") +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(title = "Observations by Taxon in Homerange Data",
+       x = "Taxonomic Group",
+       fill= "Trophic Guild")
+```
+
+We can also scale all bars to a percentage (or proportion).
+```{r}
+homerange %>% 
+  ggplot(aes(x = taxon, fill = trophic.guild))+
+  geom_bar(position = position_fill())+ 
+  scale_y_continuous(labels = scales::percent)+
+  coord_flip()
+```
+
+## That's it! Great work!  
