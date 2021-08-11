@@ -44,6 +44,9 @@ Major topic - plotting in R, continued
 
 We will work through the [Day 3 lesson](https://robertmerdmann.github.io/REALshortcourse_Summer2021/Day3/Day3_1.html) together. We'll review our initial plotting skills from last week's session, explore new ways to manipulate our data as we plot, and learn how to customize our plotting outputs.
 
+### Between Day Three and Day Four
+
+Here is the Github location of the [Day 3 homework / Day 4 prep work](https://github.com/robertmerdmann/REALshortcourse_Summer2021/tree/main/Day3homeworkandDay4prepwork) - with both a RMarkdown file and a .csv data source.  Good luck!
 
 ### Community Information
 
